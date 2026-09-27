@@ -1,12 +1,14 @@
 ---
-import ProductCard from '../components/ProductCard.astro';
-import productsData from '../data/products.json';
-import type { Product } from '../types/product';
-import '../styles/global.css';
+import ProductCard from "../components/ProductCard.astro";
+import productsData from "../data/products.json";
+import type { Product } from "../types/product";
+import "../styles/global.css";
 
 const products = productsData satisfies Product[];
-const categories = [...new Set(products.map((product) => product.categoria))].sort((left, right) => left.localeCompare(right, 'es'));
-const countFormatter = new Intl.NumberFormat('es-PE');
+const categories = [
+	...new Set(products.map((product) => product.categoria)),
+].sort((left, right) => left.localeCompare(right, "es"));
+const countFormatter = new Intl.NumberFormat("es-PE");
 ---
 
 <!doctype html>
@@ -18,49 +20,123 @@ const countFormatter = new Intl.NumberFormat('es-PE');
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<meta name="theme-color" content="#f5f6f1" />
-		<meta name="description" content="Explora el catálogo de skincare coreano de KAN Beauty. Productos, precios y detalles en un solo lugar." />
+		<meta
+			name="description"
+			content="Explora el catálogo de skincare coreano de KAN Beauty. Productos, precios y detalles en un solo lugar."
+		/>
 		<title>Catálogo | KAN Beauty Perú</title>
 	</head>
-	<body class="min-h-screen bg-[#f5f6f1] font-sans text-[#20362d] antialiased">
+	<body
+		class="min-h-screen bg-[#f5f6f1] font-sans text-[#20362d] antialiased"
+	>
 		<header class="border-b border-[#dfe4dc] bg-[#f9faf6]">
-			<div class="mx-auto flex max-w-[1440px] items-center justify-between px-5 py-4 sm:px-8 lg:px-12">
-				<a href="#inicio" class="flex items-center gap-3" aria-label="KAN Beauty, inicio">
-					<img src="./logo.png" width="132px" />
+			<div
+				class="mx-auto flex max-w-[1440px] items-center justify-between px-5 py-4 sm:px-8 lg:px-12"
+			>
+				<a
+					href="#inicio"
+					class="flex items-center gap-3"
+					aria-label="KAN Beauty, inicio"
+				>
+					<img src="./logo.png"  />
 				</a>
-				<a href="#catalogo" class="inline-flex min-h-10 items-center gap-2 border-b border-[#bd684f] text-xs font-semibold text-[#91503f] transition hover:text-[#20362d]">
+				<a
+					href="#catalogo"
+					class="inline-flex min-h-10 items-center gap-2 border-b border-[#bd684f] text-xs font-semibold text-[#91503f] transition hover:text-[#20362d]"
+				>
 					Explorar catálogo <span aria-hidden="true">↓</span>
 				</a>
 			</div>
 		</header>
 
-		<main id="inicio" class="mx-auto max-w-[1440px] px-5 pb-20 sm:px-8 lg:px-12">
-			<section class="relative overflow-hidden border-b border-[#dfe4dc] py-9 sm:py-12">
-				<div class="catalog-mark absolute -right-4 -top-10 hidden h-56 w-56 rounded-full border border-[#dce4da] sm:block lg:right-14" aria-hidden="true"></div>
-				<div class="relative flex flex-col justify-between gap-6 sm:flex-row sm:items-end">
+		<main
+			id="inicio"
+			class="mx-auto max-w-[1440px] px-5 pb-20 sm:px-8 lg:px-12"
+		>
+			<section
+				class="relative overflow-hidden border-b border-[#dfe4dc] py-9 sm:py-12"
+			>
+				<div
+					class="catalog-mark absolute -right-4 -top-10 hidden h-56 w-56 rounded-full border border-[#dce4da] sm:block lg:right-14"
+					aria-hidden="true"
+				>
+				</div>
+				<div
+					class="relative flex flex-col justify-between gap-6 sm:flex-row sm:items-end"
+				>
 					<div class="max-w-2xl">
-						<p class="mb-3 flex items-center gap-2 text-[10px] font-bold tracking-[0.2em] text-[#9b503d]">
-							<span class="size-1.5 rounded-full bg-[#bd684f]"></span> CATÁLOGO DE SKINCARE
+						<p
+							class="mb-3 flex items-center gap-2 text-[10px] font-bold tracking-[0.2em] text-[#9b503d]"
+						>
+							<span class="size-1.5 rounded-full bg-[#bd684f]"
+							></span> CATÁLOGO DE SKINCARE
 						</p>
-						<h1 class="font-display text-4xl leading-[0.98] text-[#20362d] sm:text-5xl">Cuidado que <span class="italic text-[#9b503d]">se siente.</span></h1>
-						<p class="mt-3 max-w-lg text-sm leading-6 text-[#69776d]">Encuentra tu próximo favorito y revisa sus precios por cantidad.</p>
+						<h1
+							class="font-display text-4xl leading-[0.98] text-[#20362d] sm:text-5xl"
+						>
+							Invierte en tu mejor versión.
+						</h1>
+						<p
+							class="mt-3 max-w-lg text-sm leading-6 text-[#69776d]"
+						>
+							Encuentra tu próximo favorito y revisa sus precios
+							por cantidad.
+						</p>
 					</div>
 					<p class="flex items-baseline gap-2 text-xs text-[#69776d]">
-						<span class="font-display text-3xl text-[#344f40]">{countFormatter.format(products.length)}</span>
+						<span class="font-display text-3xl text-[#344f40]"
+							>{countFormatter.format(products.length)}</span
+						>
 						<span>productos en catálogo</span>
 					</p>
 				</div>
 			</section>
 
-			<section id="catalogo" class="scroll-mt-5 pt-7" aria-labelledby="catalog-title">
-				<div class="flex flex-col justify-between gap-4 sm:flex-row sm:items-end">
+			<section
+				id="catalogo"
+				class="scroll-mt-5 pt-7"
+				aria-labelledby="catalog-title"
+			>
+				<div
+					class="mb-6 flex justify-end border-b border-[#dfe4dc] pb-5"
+				>
+					<a
+						href="https://wa.link/zitviw"
+						target="_blank"
+						rel="norel"
+						class="inline-flex min-h-11 items-center justify-center rounded-sm bg-[#294337] px-6 text-xs font-semibold tracking-[0.04em] text-white transition hover:bg-[#20362d] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#294337]"
+					>
+						ÚNETE A LA COMUNIDAD
+					</a>
+				</div>
+				<div
+					class="flex flex-col justify-between gap-4 sm:flex-row sm:items-end"
+				>
 					<div>
-						<p class="text-[10px] font-bold tracking-[0.19em] text-[#9b503d]">DESCUBRE Y COMPARA</p>
-						<h2 id="catalog-title" class="mt-1 font-display text-3xl text-[#20362d]">Nuestros productos</h2>
+						<p
+							class="text-[10px] font-bold tracking-[0.19em] text-[#9b503d]"
+						>
+							DESCUBRE Y COMPARA
+						</p>
+						<h2
+							id="catalog-title"
+							class="mt-1 font-display text-3xl text-[#20362d]"
+						>
+							Nuestros productos
+						</h2>
 					</div>
 					<label class="relative block w-full sm:max-w-sm">
 						<span class="sr-only">Buscar productos</span>
-						<svg aria-hidden="true" class="pointer-events-none absolute left-3 top-1/2 size-4 -translate-y-1/2 text-[#78867c]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7">
-							<circle cx="10.8" cy="10.8" r="6.8"></circle><path d="m16 16 5 5"></path>
+						<svg
+							aria-hidden="true"
+							class="pointer-events-none absolute left-3 top-1/2 size-4 -translate-y-1/2 text-[#78867c]"
+							viewBox="0 0 24 24"
+							fill="none"
+							stroke="currentColor"
+							stroke-width="1.7"
+						>
+							<circle cx="10.8" cy="10.8" r="6.8"></circle><path
+								d="m16 16 5 5"></path>
 						</svg>
 						<input
 							id="product-search"
@@ -72,43 +148,220 @@ const countFormatter = new Intl.NumberFormat('es-PE');
 					</label>
 				</div>
 
-				<div class="category-scroller -mx-5 mt-5 overflow-x-auto px-5 pb-3 sm:-mx-8 sm:px-8 lg:-mx-12 lg:px-12">
-					<div id="category-filters" class="flex w-max min-w-full gap-2" aria-label="Filtrar por categoría">
-						<button type="button" data-category-filter="" aria-pressed="true" class="category-filter is-active">Todos <span class="category-filter-count">{countFormatter.format(products.length)}</span></button>
-						{categories.map((category) => (
-							<button type="button" data-category-filter={category} aria-pressed="false" class="category-filter">{category}</button>
-						))}
+				<div
+					class="category-scroller -mx-5 mt-5 overflow-x-auto px-5 pb-3 sm:-mx-8 sm:px-8 lg:-mx-12 lg:px-12"
+				>
+					<div
+						id="category-filters"
+						class="flex w-max min-w-full gap-2"
+						aria-label="Filtrar por categoría"
+					>
+						<button
+							type="button"
+							data-category-filter=""
+							aria-pressed="true"
+							class="category-filter is-active"
+							>Todos <span class="category-filter-count"
+								>{countFormatter.format(products.length)}</span
+							></button
+						>
+						{
+							categories.map((category) => (
+								<button
+									type="button"
+									data-category-filter={category}
+									aria-pressed="false"
+									class="category-filter"
+								>
+									{category}
+								</button>
+							))
+						}
 					</div>
 				</div>
 
-				<div class="mt-4 flex items-center justify-between border-y border-[#dfe4dc] py-3 text-[11px] text-[#738077]">
-					<p aria-live="polite"><span id="visible-count">{countFormatter.format(products.length)}</span> productos</p>
+				<div
+					class="mt-4 flex items-center justify-between border-y border-[#dfe4dc] py-3 text-[11px] text-[#738077]"
+				>
+					<p aria-live="polite">
+						<span id="visible-count"
+							>{countFormatter.format(products.length)}</span
+						> productos
+					</p>
 					<p class="hidden sm:block">Precios en soles peruanos</p>
 				</div>
 
-				<div id="product-grid" class="mt-5 grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4 lg:grid-cols-4 xl:grid-cols-5 xl:gap-5">
-					{products.map((product) => <ProductCard product={product} />)}
+				<div
+					id="product-grid"
+					class="mt-5 grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4 lg:grid-cols-4 xl:grid-cols-5 xl:gap-5"
+				>
+					{
+						products.map((product) => (
+							<ProductCard product={product} />
+						))
+					}
 				</div>
-				<p id="empty-results" hidden class="border-b border-[#dfe4dc] py-14 text-center font-display text-2xl text-[#53645a]">No encontramos productos con esa búsqueda.</p>
+				<p
+					id="empty-results"
+					hidden
+					class="border-b border-[#dfe4dc] py-14 text-center font-display text-2xl text-[#53645a]"
+				>
+					No encontramos productos con esa búsqueda.
+				</p>
 			</section>
 		</main>
 
+		<section
+			id="beneficios"
+			class="border-y border-[#dfe4dc] bg-[#f9faf6]"
+			aria-label="Beneficios para la comunidad KAN Beauty"
+		>
+			<div
+				class="mx-auto grid max-w-[1440px] grid-cols-2 gap-x-5 gap-y-9 px-5 py-10 text-center sm:px-8 sm:py-12 lg:grid-cols-4 lg:gap-8 lg:px-12"
+			>
+				<article class="flex flex-col items-center">
+					<svg
+						aria-hidden="true"
+						class="mb-3 size-10 text-[#9b503d]"
+						viewBox="0 0 24 24"
+						fill="none"
+						stroke="currentColor"
+						stroke-width="1.8"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+					>
+						<path
+							d="M20.6 13.4 13.4 20.6a2 2 0 0 1-2.8 0L3 13V3h10l7.6 7.6a2 2 0 0 1 0 2.8Z"
+						></path>
+						<circle cx="7.5" cy="7.5" r="1.25"></circle>
+					</svg>
+					<h2 class="text-sm font-semibold leading-5 text-[#20362d]">
+						Descuento Mayorista Exclusivo
+					</h2>
+					<p class="mt-1 max-w-xs text-xs leading-5 text-[#69776d]">
+						Precios especiales para distribuidores registrados.
+					</p>
+				</article>
+				<article class="flex flex-col items-center">
+					<svg
+						aria-hidden="true"
+						class="mb-3 size-10 text-[#9b503d]"
+						viewBox="0 0 24 24"
+						fill="none"
+						stroke="currentColor"
+						stroke-width="1.8"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+					>
+						<path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"
+						></path>
+						<circle cx="9" cy="7" r="4"></circle>
+						<path
+							d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"
+						></path>
+					</svg>
+					<h2 class="text-sm font-semibold leading-5 text-[#20362d]">
+						Únete a nuestra red
+					</h2>
+					<p class="mt-1 max-w-xs text-xs leading-5 text-[#69776d]">
+						Accede a lanzamientos, catálogos y capacitaciones
+						exclusivas.
+					</p>
+				</article>
+				<article class="flex flex-col items-center">
+					<svg
+						aria-hidden="true"
+						class="mb-3 size-10 text-[#9b503d]"
+						viewBox="0 0 24 24"
+						fill="none"
+						stroke="currentColor"
+						stroke-width="1.8"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+					>
+						<path d="M3 14v-3a9 9 0 0 1 18 0v3"></path>
+						<path
+							d="M5 14h2a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2Zm12 0h2a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2Z"
+						></path>
+						<path d="M12 21h2a3 3 0 0 0 3-3"></path>
+					</svg>
+					<h2 class="text-sm font-semibold leading-5 text-[#20362d]">
+						Asesoría Personalizada
+					</h2>
+					<p class="mt-1 max-w-xs text-xs leading-5 text-[#69776d]">
+						Soporte directo para impulsar tu negocio.
+					</p>
+				</article>
+				<article class="flex flex-col items-center">
+					<svg
+						aria-hidden="true"
+						class="mb-3 size-10 text-[#9b503d]"
+						viewBox="0 0 24 24"
+						fill="none"
+						stroke="currentColor"
+						stroke-width="1.8"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+					>
+						<path d="M3 6h11v12H3zM14 10h4l3 3v5h-7z"></path>
+						<circle cx="7.5" cy="18" r="2"></circle>
+						<circle cx="18" cy="18" r="2"></circle>
+						<path d="M5 9h5m-5 3h4"></path>
+					</svg>
+					<h2 class="text-sm font-semibold leading-5 text-[#20362d]">
+						Envíos Seguros
+					</h2>
+					<p class="mt-1 max-w-xs text-xs leading-5 text-[#69776d]">
+						Logística confiable a todo el Perú.
+					</p>
+				</article>
+			</div>
+		</section>
+
 		<footer class="border-t border-[#dfe4dc] bg-[#eef1eb]">
-			<div class="mx-auto flex max-w-[1440px] flex-col gap-2 px-5 py-6 text-[10px] font-medium tracking-[0.08em] text-[#758177] sm:flex-row sm:items-center sm:justify-between sm:px-8 lg:px-12">
+			<div
+				class="mx-auto flex max-w-[1440px] flex-col gap-2 px-5 py-6 text-[10px] font-medium tracking-[0.08em] text-[#758177] sm:flex-row sm:items-center sm:justify-between sm:px-8 lg:px-12"
+			>
 				<p>KAN BEAUTY · CATÁLOGO DIGITAL</p>
-				<a href="#inicio" class="w-fit border-b border-[#bd684f] pb-0.5 text-[#91503f] hover:text-[#20362d]">Volver arriba ↑</a>
+				<a
+					href="#inicio"
+					class="w-fit border-b border-[#bd684f] pb-0.5 text-[#91503f] hover:text-[#20362d]"
+					>Volver arriba ↑</a
+				>
 			</div>
 		</footer>
 
-		<dialog id="product-dialog" aria-labelledby="dialog-title" class="m-auto max-h-[min(90dvh,52rem)] w-[min(48rem,calc(100%-2rem))] overflow-y-auto rounded-sm border border-[#dfe4dc] bg-[#fbfcf8] p-0 text-[#20362d] shadow-[0_25px_90px_-25px_rgba(14,35,27,0.5)] backdrop:bg-[#17291f]/55 backdrop:backdrop-blur-[2px]">
-			<div class="sticky top-0 z-10 flex items-start justify-between gap-4 border-b border-[#dfe4dc] bg-[#fbfcf8]/95 px-5 py-4 backdrop-blur-sm sm:px-7">
+		<dialog
+			id="product-dialog"
+			aria-labelledby="dialog-title"
+			class="m-auto max-h-[min(90dvh,52rem)] w-[min(48rem,calc(100%-2rem))] overflow-y-auto rounded-sm border border-[#dfe4dc] bg-[#fbfcf8] p-0 text-[#20362d] shadow-[0_25px_90px_-25px_rgba(14,35,27,0.5)] backdrop:bg-[#17291f]/55 backdrop:backdrop-blur-[2px]"
+		>
+			<div
+				class="sticky top-0 z-10 flex items-start justify-between gap-4 border-b border-[#dfe4dc] bg-[#fbfcf8]/95 px-5 py-4 backdrop-blur-sm sm:px-7"
+			>
 				<div>
-					<p id="dialog-category" class="text-[9px] font-bold tracking-[0.18em] text-[#9b503d]"></p>
-					<h2 id="dialog-title" class="mt-1 max-w-[34rem] font-display text-2xl leading-tight sm:text-3xl"></h2>
-					<p id="dialog-price" class="mt-2 text-sm font-semibold tabular-nums text-[#53645a]"></p>
+					<p
+						id="dialog-category"
+						class="text-[9px] font-bold tracking-[0.18em] text-[#9b503d]"
+					>
+					</p>
+					<h2
+						id="dialog-title"
+						class="mt-1 max-w-[34rem] font-display text-2xl leading-tight sm:text-3xl"
+					>
+					</h2>
+					<p
+						id="dialog-price"
+						class="mt-2 text-sm font-semibold tabular-nums text-[#53645a]"
+					>
+					</p>
 				</div>
 				<form method="dialog">
-					<button type="submit" aria-label="Cerrar detalles" class="flex size-10 shrink-0 items-center justify-center rounded-full border border-[#d9e0d7] text-2xl leading-none text-[#53645a] transition hover:border-[#9b503d] hover:text-[#9b503d] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#bd684f]">
+					<button
+						type="submit"
+						aria-label="Cerrar detalles"
+						class="flex size-10 shrink-0 items-center justify-center rounded-full border border-[#d9e0d7] text-2xl leading-none text-[#53645a] transition hover:border-[#9b503d] hover:text-[#9b503d] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#bd684f]"
+					>
 						<span aria-hidden="true">&times;</span>
 					</button>
 				</form>
@@ -117,80 +370,133 @@ const countFormatter = new Intl.NumberFormat('es-PE');
 		</dialog>
 
 		<script>
-			const searchInput = document.querySelector<HTMLInputElement>('#product-search');
-			const productCards = Array.from(document.querySelectorAll<HTMLElement>('[data-product-card]'));
-			const filterButtons = Array.from(document.querySelectorAll<HTMLButtonElement>('[data-category-filter]'));
-			const visibleCount = document.querySelector<HTMLElement>('#visible-count');
-			const emptyResults = document.querySelector<HTMLElement>('#empty-results');
-			const productDialog = document.querySelector<HTMLDialogElement>('#product-dialog');
-			const dialogTitle = document.querySelector<HTMLElement>('#dialog-title');
-			const dialogCategory = document.querySelector<HTMLElement>('#dialog-category');
-			const dialogPrice = document.querySelector<HTMLElement>('#dialog-price');
-			const dialogContent = document.querySelector<HTMLElement>('#dialog-content');
-			let activeCategory = '';
+			const searchInput =
+				document.querySelector<HTMLInputElement>("#product-search");
+			const productCards = Array.from(
+				document.querySelectorAll<HTMLElement>("[data-product-card]"),
+			);
+			const filterButtons = Array.from(
+				document.querySelectorAll<HTMLButtonElement>(
+					"[data-category-filter]",
+				),
+			);
+			const visibleCount =
+				document.querySelector<HTMLElement>("#visible-count");
+			const emptyResults =
+				document.querySelector<HTMLElement>("#empty-results");
+			const productDialog =
+				document.querySelector<HTMLDialogElement>("#product-dialog");
+			const dialogTitle =
+				document.querySelector<HTMLElement>("#dialog-title");
+			const dialogCategory =
+				document.querySelector<HTMLElement>("#dialog-category");
+			const dialogPrice =
+				document.querySelector<HTMLElement>("#dialog-price");
+			const dialogContent =
+				document.querySelector<HTMLElement>("#dialog-content");
+			let activeCategory = "";
 
-			const normalize = (value: string) => value.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLocaleLowerCase('es');
+			const normalize = (value: string) =>
+				value
+					.normalize("NFD")
+					.replace(/[\u0300-\u036f]/g, "")
+					.toLocaleLowerCase("es");
 
 			const updateProducts = () => {
-				const query = normalize(searchInput?.value.trim() ?? '');
+				const query = normalize(searchInput?.value.trim() ?? "");
 				let count = 0;
 
 				for (const card of productCards) {
-					const matchesCategory = !activeCategory || card.dataset.category === activeCategory;
-					const matchesSearch = normalize(card.dataset.search ?? '').includes(query);
+					const matchesCategory =
+						!activeCategory ||
+						card.dataset.category === activeCategory;
+					const matchesSearch = normalize(
+						card.dataset.search ?? "",
+					).includes(query);
 					card.hidden = !(matchesCategory && matchesSearch);
 					if (!card.hidden) count += 1;
 				}
 
-				if (visibleCount) visibleCount.textContent = count.toLocaleString('es-PE');
+				if (visibleCount)
+					visibleCount.textContent = count.toLocaleString("es-PE");
 				if (emptyResults) emptyResults.hidden = count > 0;
 			};
 
-			searchInput?.addEventListener('input', updateProducts);
+			searchInput?.addEventListener("input", updateProducts);
 
 			for (const button of filterButtons) {
-				button.addEventListener('click', () => {
-					activeCategory = button.dataset.categoryFilter ?? '';
+				button.addEventListener("click", () => {
+					activeCategory = button.dataset.categoryFilter ?? "";
 					for (const filterButton of filterButtons) {
 						const isActive = filterButton === button;
-						filterButton.setAttribute('aria-pressed', String(isActive));
-						filterButton.classList.toggle('is-active', isActive);
+						filterButton.setAttribute(
+							"aria-pressed",
+							String(isActive),
+						);
+						filterButton.classList.toggle("is-active", isActive);
 					}
 					updateProducts();
 				});
 			}
 
-			document.addEventListener('click', (event) => {
+			document.addEventListener("click", (event) => {
 				if (!(event.target instanceof Element)) return;
-				const trigger = event.target.closest<HTMLButtonElement>('[data-open-detail]');
-				if (!trigger || !productDialog || !dialogTitle || !dialogCategory || !dialogPrice || !dialogContent) return;
+				const trigger =
+					event.target.closest<HTMLButtonElement>(
+						"[data-open-detail]",
+					);
+				if (
+					!trigger ||
+					!productDialog ||
+					!dialogTitle ||
+					!dialogCategory ||
+					!dialogPrice ||
+					!dialogContent
+				)
+					return;
 
-				const template = document.getElementById(trigger.dataset.detailTemplate ?? '');
+				const template = document.getElementById(
+					trigger.dataset.detailTemplate ?? "",
+				);
 				if (!(template instanceof HTMLTemplateElement)) return;
 
-				dialogTitle.textContent = trigger.dataset.productTitle ?? '';
-				dialogCategory.textContent = trigger.dataset.productCategory ?? '';
-				dialogPrice.textContent = `Precio unitario: S/ ${trigger.dataset.productPrice ?? ''}`;
+				dialogTitle.textContent = trigger.dataset.productTitle ?? "";
+				dialogCategory.textContent =
+					trigger.dataset.productCategory ?? "";
+				dialogPrice.textContent = `Precio unitario: S/ ${trigger.dataset.productPrice ?? ""}`;
 				dialogContent.replaceChildren(template.content.cloneNode(true));
 				productDialog.showModal();
 			});
 
-			productDialog?.addEventListener('click', (event) => {
+			productDialog?.addEventListener("click", (event) => {
 				if (event.target === productDialog) productDialog.close();
 			});
 
 			const showImageFallback = (image: HTMLImageElement) => {
-				image.classList.add('hidden');
-				image.parentElement?.querySelector('[data-image-fallback]')?.classList.remove('hidden');
+				image.classList.add("hidden");
+				image.parentElement
+					?.querySelector("[data-image-fallback]")
+					?.classList.remove("hidden");
 			};
 
-			document.addEventListener('error', (event) => {
-				if (!(event.target instanceof HTMLImageElement) || !event.target.matches('[data-product-image]')) return;
-				showImageFallback(event.target);
-			}, true);
+			document.addEventListener(
+				"error",
+				(event) => {
+					if (
+						!(event.target instanceof HTMLImageElement) ||
+						!event.target.matches("[data-product-image]")
+					)
+						return;
+					showImageFallback(event.target);
+				},
+				true,
+			);
 
-			for (const image of document.querySelectorAll<HTMLImageElement>('[data-product-image]')) {
-				if (image.complete && image.naturalWidth === 0) showImageFallback(image);
+			for (const image of document.querySelectorAll<HTMLImageElement>(
+				"[data-product-image]",
+			)) {
+				if (image.complete && image.naturalWidth === 0)
+					showImageFallback(image);
 			}
 		</script>
 	</body>
