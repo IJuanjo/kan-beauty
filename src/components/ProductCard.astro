@@ -1,0 +1,133 @@
+---
+import type { Product } from '../types/product';
+
+interface Props {
+	product: Product;
+}
+
+const { product } = Astro.props;
+const isAvailable = (product.detalles?.precioRecomendado ?? 0) > 0;
+const templateId = `product-detail-${product.id}`;
+const normalizeImagePath = (path: string) => {
+	const normalizedPath = path.replace(/^\/+/, '');
+	return `/${normalizedPath.startsWith('uploads/') ? normalizedPath : `uploads/${normalizedPath}`}`;
+};
+const productImage = normalizeImagePath(product.imagenProducto);
+const detailImage = product.detalles.img ? normalizeImagePath(product.detalles.img) : undefined;
+const priceFormatter = new Intl.NumberFormat('es-PE', { maximumFractionDigits: 2 });
+---
+
+<article
+	class="group flex h-full flex-col overflow-hidden rounded-sm border border-[#e1e4dc] bg-white transition duration-200 hover:-translate-y-0.5 hover:border-[#b7c8bb] hover:shadow-[0_14px_35px_-25px_rgba(25,48,40,0.45)]"
+	data-product-card
+	data-category={product.categoria}
+	data-search={`${product.titulo} ${product.categoria} ${product.descripcion}`.toLocaleLowerCase()}
+>
+	<div class="relative aspect-[4/4.5] overflow-hidden bg-[#e9eee7]">
+		<img
+			src={productImage}
+			alt={product.titulo}
+			loading="lazy"
+			decoding="async"
+			data-product-image
+			class="h-full w-full object-cover transition duration-500 group-hover:scale-[1.03]"
+		/>
+		<div data-image-fallback class="image-fallback absolute inset-0 hidden flex-col items-center justify-center gap-3 text-center text-[#596c5e]">
+			<span class="font-display text-4xl italic">K</span>
+			<span class="text-[10px] font-semibold tracking-[0.2em]">IMAGEN EN CAMINO</span>
+		</div>
+		<span class="absolute left-3 top-3 max-w-[calc(100%-1.5rem)] truncate rounded-sm bg-white/90 px-2.5 py-1 text-[10px] font-bold tracking-[0.14em] text-[#294337] backdrop-blur-sm">
+			{product.categoria}
+		</span>
+		{!isAvailable && (
+			<span class="absolute right-3 top-3 rounded-sm bg-[#a54838] px-2.5 py-1 text-[10px] font-bold tracking-[0.08em] text-white">
+				AGOTADO
+			</span>
+		)}
+	</div>
+
+	<div class="flex flex-1 flex-col p-4 sm:p-5">
+		<h2 class="font-display text-[21px] leading-[1.08] text-[#20362d]">{product.titulo}</h2>
+		<p class="mt-2 line-clamp-3 text-[12px] leading-[1.65] text-[#66736b]">{product.descripcion}</p>
+		<div class="mt-auto flex items-end justify-between gap-3 pt-5">
+			<div>
+				<p class="text-[9px] font-semibold tracking-[0.17em] text-[#79877d]">PRECIO</p>
+				<p class="mt-0.5 text-lg font-semibold tabular-nums text-[#21372e]">S/ {priceFormatter.format(product.precio)}</p>
+			</div>
+			{isAvailable ? (
+				<button
+					type="button"
+					data-open-detail
+					data-detail-template={templateId}
+					data-product-title={product.titulo}
+					data-product-category={product.categoria}
+					data-product-price={priceFormatter.format(product.precio)}
+					class="inline-flex min-h-10 items-center gap-2 border-b border-[#bd684f] px-1 text-[11px] font-semibold text-[#9b503d] transition hover:border-[#294337] hover:text-[#294337] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#bd684f]"
+				>
+					Ver detalles <span aria-hidden="true">↗</span>
+				</button>
+			) : (
+				<button type="button" disabled class="min-h-10 cursor-not-allowed border-b border-[#d9ddd6] px-1 text-[11px] font-semibold text-[#909990]">
+					No disponible
+				</button>
+			)}
+		</div>
+	</div>
+</article>
+
+{isAvailable && (
+	<template id={templateId}>
+		<div class="grid gap-5 sm:grid-cols-[minmax(0,0.85fr)_minmax(0,1.15fr)]">
+			{detailImage && (
+				<div class="relative aspect-[4/4.5] overflow-hidden rounded-sm bg-[#e9eee7] sm:sticky sm:top-0">
+					<img src={detailImage} alt={product.titulo} loading="lazy" decoding="async" data-product-image class="h-full w-full object-cover" />
+					<div data-image-fallback class="image-fallback absolute inset-0 hidden flex-col items-center justify-center gap-3 text-center text-[#596c5e]">
+						<span class="font-display text-4xl italic">K</span>
+						<span class="text-[10px] font-semibold tracking-[0.2em]">IMAGEN EN CAMINO</span>
+					</div>
+				</div>
+			)}
+			<div class="space-y-5">
+				{product.detalles.descripcion?.trim() && (
+					<p class="whitespace-pre-line text-sm leading-7 text-[#53645a]">{product.detalles.descripcion}</p>
+				)}
+				{product.detalles.stock && product.detalles.stock.length > 0 && (
+					<section>
+						<h3 class="text-[10px] font-bold tracking-[0.17em] text-[#78867c]">PRECIOS POR CANTIDAD</h3>
+						<ul class="mt-3 divide-y divide-[#e4e8e1] border-y border-[#e4e8e1]">
+							{product.detalles.stock.map((tier) => (
+								<li class="flex items-center justify-between gap-4 py-2.5 text-sm">
+									<span class="text-[#53645a]">Desde {tier.cantidad} unidades</span>
+									<span class="font-semibold tabular-nums text-[#20362d]">S/ {priceFormatter.format(tier.precio)} c/u</span>
+								</li>
+							))}
+						</ul>
+					</section>
+				)}
+				<dl class="grid grid-cols-2 gap-x-4 gap-y-3 border-t border-[#e4e8e1] pt-4 text-sm">
+					{product.detalles.precio != null && (
+						<div>
+							<dt class="text-[10px] font-semibold tracking-[0.13em] text-[#78867c]">PRECIO UNITARIO</dt>
+							<dd class="mt-1 font-semibold text-[#20362d]">S/ {priceFormatter.format(product.detalles.precio)}</dd>
+						</div>
+					)}
+					{product.detalles.precioRecomendado != null && (
+						<div>
+							<dt class="text-[10px] font-semibold tracking-[0.13em] text-[#78867c]">PRECIO RECOMENDADO</dt>
+							<dd class="mt-1 font-semibold text-[#20362d]">S/ {priceFormatter.format(product.detalles.precioRecomendado)}</dd>
+						</div>
+					)}
+					{product.detalles.cantidad && (
+						<div>
+							<dt class="text-[10px] font-semibold tracking-[0.13em] text-[#78867c]">CONTENIDO</dt>
+							<dd class="mt-1 font-semibold text-[#20362d]">{product.detalles.cantidad}</dd>
+						</div>
+					)}
+				</dl>
+				{!product.detalles.descripcion?.trim() && !product.detalles.stock?.length && product.detalles.precio == null && product.detalles.precioRecomendado == null && !product.detalles.cantidad && (
+					<p class="border-t border-[#e4e8e1] pt-4 text-sm leading-6 text-[#78867c]">No hay más información disponible para este producto.</p>
+				)}
+			</div>
+		</div>
+	</template>
+)}
