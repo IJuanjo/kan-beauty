@@ -39,11 +39,11 @@ const priceFormatter = new Intl.NumberFormat('es-PE', { maximumFractionDigits: 2
 		<span class="absolute left-3 top-3 max-w-[calc(100%-1.5rem)] truncate rounded-sm bg-white/90 px-2.5 py-1 text-[10px] font-bold tracking-[0.14em] text-[#294337] backdrop-blur-sm">
 			{product.categoria}
 		</span>
-		{!isAvailable && (
+		<!-- {!isAvailable && (
 			<span class="absolute right-3 top-3 rounded-sm bg-[#a54838] px-2.5 py-1 text-[10px] font-bold tracking-[0.08em] text-white">
 				AGOTADO
 			</span>
-		)}
+		)} -->
 	</div>
 
 	<div class="flex flex-1 flex-col p-4 sm:p-5">
@@ -67,9 +67,10 @@ const priceFormatter = new Intl.NumberFormat('es-PE', { maximumFractionDigits: 2
 					Ver detalles <span aria-hidden="true">↗</span>
 				</button>
 			) : (
-				<button type="button" disabled class="min-h-10 cursor-not-allowed border-b border-[#d9ddd6] px-1 text-[11px] font-semibold text-[#909990]">
-					No disponible
-				</button>
+				// <button type="button" disabled class="min-h-10 cursor-not-allowed border-b border-[#d9ddd6] px-1 text-[11px] font-semibold text-[#909990]">
+				// 	No disponible
+				// </button>
+				null
 			)}
 		</div>
 	</div>

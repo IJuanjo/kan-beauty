@@ -1,5 +1,414 @@
 [
   {
+    "id": "196",
+    "titulo": "Niacinamide 20 Serum 40ml - Jumiso",
+    "categoria": "JUMISO",
+    "precio": 95,
+    "imagenProducto": "1784658575_Captura de pantalla 2026-07-21 132923.png",
+    "descripcion": "✔️1UD S/95 ✔️3UD A MÁS S/73 ✔️6UD A MÁS S/72 ✔️12UD A MÁS S/70 🔴PRECIO RECOMENDADO S/105 Un suero concentrado que combina 20% de Niacinamida y Ácido Tranexámico (TXA) para iluminar el tono de la piel, reducir manchas oscuras y refinar los poros. Su fórmula avanzada mejora la textura, aporta luminosidad y ayuda a mantener una piel más uniforme y saludable sin sensación pegajosa.",
+    "detalles": {
+      "img": "uploads/1784658575_Captura de pantalla 2026-07-21 132923.png",
+      "stock": [
+        {
+          "cantidad": 1,
+          "precio": 95
+        },
+        {
+          "cantidad": 3,
+          "precio": 73
+        },
+        {
+          "cantidad": 6,
+          "precio": 72
+        },
+        {
+          "cantidad": 12,
+          "precio": 70
+        }
+      ],
+      "precioRecomendado": 105,
+      "descripcion": "Un suero concentrado que combina 20% de Niacinamida y Ácido Tranexámico (TXA) para iluminar el tono de la piel, reducir manchas oscuras y refinar los poros. Su fórmula avanzada mejora la textura, aporta luminosidad y ayuda a mantener una piel más uniforme y saludable sin sensación pegajosa.",
+      "cantidad": "",
+      "precio": 95
+    }
+  },
+  {
+    "id": "20",
+    "titulo": "Nida Youthful Formula Ultimate Moisturizing Cream",
+    "categoria": "NIDA",
+    "precio": 65,
+    "imagenProducto": "1787081009_Captura de pantalla 2026-08-13 111404.png",
+    "descripcion": "✔️1UD S/65 ✔️3UDS S/45 ✔️6UDS S/43 ✔️12UDS S/40 🔴PRECIO RECOMENDADO: S/85 La NIDA Youthful Formula Ultimate Moisturizing Cream es una crema facial hidratante multifunción 5 en 1 de cosmética coreana. Destaca por combatir la resequedad, las líneas finas, los poros dilatados, las manchas y las rojeces con una textura ligera de rápida absorción. Beneficios Principales Hidratación profunda: Rellena y retiene la humedad gracias al ácido hialurónico. Unifica el tono y da luz: La niacinamida ayuda a reducir manchas y poros visibles. Mejora la firmeza: El colágeno y la adenosina reafirman y mejoran la elasticidad. Calma la piel: La centella asiática disminuye rojeces e irritaciones",
+    "detalles": {
+      "precioRecomendado": 0,
+      "descripcion": ""
+    }
+  },
+  {
+    "id": "37",
+    "titulo": "SKIN1004 Poremizing Velvet Finish Sunscreen",
+    "categoria": "SKIN1004",
+    "precio": 85,
+    "imagenProducto": "1784744489_Captura de pantalla 2026-07-22 105000.png",
+    "descripcion": "✔️1UD S/85 ✔️3UDS S/63 ✔️6UDS S/62 ✔️12UDS S/60 🔴PRECIO RECOMENDADO: S/95 El protector solar SKIN1004 Poremizing Velvet Finish Sunscreen protege tu piel del sol y controla el brillo. Aporta un ligero color beige que disimula los poros abiertos y unifica el tono, dejando un efecto aterciopelado. Sus beneficios principales son: Alta protección: Filtro SPF50+ (protege de quemaduras) y PA++++ (evita el envejecimiento prematuro por el sol). Efecto terciopelo: Su fórmula deja un acabado mate sin brillo, ideal si tienes piel mixta o grasa. Disimula los poros: Su color y textura rellenan y esconden los poros dilatados, actuando como base de maquillaje. Calma la piel: Contiene Centella Asiática, un ingrediente natural que ayuda a relajar y reparar la piel irritada. No es pesado: Es ligero y no deja sensación pegajosa.",
+    "detalles": {
+      "precioRecomendado": 0,
+      "descripcion": ""
+    }
+  },
+  {
+    "id": "159",
+    "titulo": "PDRN Pink Peptide Serum",
+    "categoria": "MEDICUBE",
+    "precio": 105,
+    "imagenProducto": "1771956417_WhatsApp Image 2026-02-24 at 12.56.18 PM.jpeg",
+    "descripcion": "✔️1 UD s/105 ✔️3 c/u S/85 ✔️6UD S/83 ✔️12UD S/82 🔴Precio recomendado:s/110 es un suero antiedad diseñado para regenerar, reafirmar e iluminar la piel, mejorando su elasticidad y suavizando líneas finas en poco tiempo. Su fórmula destaca por contener 10,000 ppm de PDRN de salmón y péptidos, lo que repara intensamente la barrera cutánea, hidrata profundamente y aporta luminosidad.",
+    "detalles": {
+      "precioRecomendado": 0,
+      "descripcion": ""
+    }
+  },
+  {
+    "id": "200",
+    "titulo": "DR ALTHEA 345 Relief Cream",
+    "categoria": "DR.ALTHEA",
+    "precio": 85,
+    "imagenProducto": "1790192874_Captura de pantalla 2026-09-23 144734.png",
+    "descripcion": "✔️1UD S/85 ✔️3UDS S/60 ✔️1 CAJÓN: S/58 C/U (40 piezas) 🔴PRECIO RECOMENDADO: S/99 La crema 345 (conocida como Dr. Althea 345 Relief Cream) es un popular tratamiento hidratante coreano de textura ligera en gel. Está diseñada específicamente para calmar la piel irritada, reducir marcas y manchas de acné, y reparar la barrera cutánea. Beneficios y Características Textura ligera: Es un tipo gel-crema de rápida absorción que no deja sensación grasosa. No comedogénica: Testada clínicamente para no obstruir los poros, siendo ideal para piel mixta, grasa o con tendencia al acné. Fórmula focalizada: Su nombre \"345\" representa su combinación de activos para tratar secuelas del acné, extractos nutritivos y componentes calmantes",
+    "detalles": {
+      "img": "uploads/1790192874_Captura de pantalla 2026-09-23 144734.png",
+      "stock": [
+        {
+          "cantidad": 1,
+          "precio": 85
+        },
+        {
+          "cantidad": 3,
+          "precio": 60
+        }
+      ],
+      "precioRecomendado": 99,
+      "descripcion": "✔️1 CAJÓN: S/58 C/U (40 piezas) La crema 345 (conocida como Dr. Althea 345 Relief Cream) es un popular tratamiento hidratante coreano de textura ligera en gel. Está diseñada específicamente para calmar la piel irritada, reducir marcas y manchas de acné, y reparar la barrera cutánea. Beneficios y Características Textura ligera: Es un tipo gel-crema de rápida absorción que no deja sensación grasosa. No comedogénica: Testada clínicamente para no obstruir los poros, siendo ideal para piel mixta, grasa o con tendencia al acné. Fórmula focalizada: Su nombre \"345\" representa su combinación de activos para tratar secuelas del acné, extractos nutritivos y componentes calmantes",
+      "cantidad": "",
+      "precio": 85
+    }
+  },
+  {
+    "id": "52",
+    "titulo": "1025 Dokdo Cleanser",
+    "categoria": "ROUND LAB",
+    "precio": 70,
+    "imagenProducto": "1783026867_DDW.webp",
+    "descripcion": "✔️1UD S/70 ✔️3UD S/47 ✔️6UD S/46 ✔️12UD S/45 🔴PRECIO RECOMENDADO: S/80 El Round Lab 1025 Dokdo Cleanser es un limpiador facial coreano con pH bajo (5.0–6.0) ideal para pieles sensibles. Sus beneficios incluyen la eliminación eficaz de impurezas y maquillaje ligero sin resecar, fortalecimiento de la barrera cutánea (gracias a ceramidas y ácido hialurónico) y un efecto calmante profundo. Beneficios principales: Limpieza suave: Su textura cremosa se transforma en una espuma fina que elimina el exceso de sebo y suciedad respetando la barrera natural. Hidratación profunda: Contiene agua de mar profunda de Ulleungdo (rica en minerales) y ácido hialurónico que evitan la sensación de tirantez después del lavado. Protección y calma: Enriquecido con pantenol, alantoína y ceramidas, alivia la irritación y protege la piel del estrés externo. Equilibrio de pH: Al ser ligeramente ácido, mantiene el manto protector de la piel sano, haciéndolo perfecto para uso diario (mañana y noche).",
+    "detalles": {
+      "img": "uploads/1783026867_DDW.webp",
+      "stock": [
+        {
+          "cantidad": 1,
+          "precio": 70
+        },
+        {
+          "cantidad": 3,
+          "precio": 47
+        },
+        {
+          "cantidad": 6,
+          "precio": 46
+        },
+        {
+          "cantidad": 12,
+          "precio": 45
+        }
+      ],
+      "precioRecomendado": 80,
+      "descripcion": "El Round Lab 1025 Dokdo Cleanser es un limpiador facial coreano con pH bajo (5.0–6.0) ideal para pieles sensibles. Sus beneficios incluyen la eliminación eficaz de impurezas y maquillaje ligero sin resecar, fortalecimiento de la barrera cutánea (gracias a ceramidas y ácido hialurónico) y un efecto calmante profundo. Beneficios principales: Limpieza suave: Su textura cremosa se transforma en una espuma fina que elimina el exceso de sebo y suciedad respetando la barrera natural. Hidratación profunda: Contiene agua de mar profunda de Ulleungdo (rica en minerales) y ácido hialurónico que evitan la sensación de tirantez después del lavado. Protección y calma: Enriquecido con pantenol, alantoína y ceramidas, alivia la irritación y protege la piel del estrés externo. Equilibrio de pH: Al ser ligeramente ácido, mantiene el manto protector de la piel sano, haciéndolo perfecto para uso diario (mañana y noche).",
+      "cantidad": "",
+      "precio": 70
+    }
+  },
+  {
+    "id": "39",
+    "titulo": "ANUA HEARTLEAF PORE CONTROL CLEANSING OIL",
+    "categoria": "anua",
+    "precio": 80,
+    "imagenProducto": "1784733748_Captura de pantalla 2026-07-22 101812.png",
+    "descripcion": "✔️1UD S/80 ✔️3UDS S/65 ✔️6UDS S/61 ✔️12UDS S/60 🔴PRECIO RECOMENDADO: S/85 El ANUA Heartleaf Pore Control Cleansing Oil es un aceite limpiador facial que disuelve maquillaje, protector solar y exceso de grasa. Gracias al extracto de Heartleaf (hoja de corazón), limpia los poros a fondo y calma la piel sin causar irritación ni brotes de acné. Beneficios principales Controla la grasa: Remueve los \"filamentos sebáceos\" (puntos negros y blancos) y regula la producción de sebo de forma natural. Calma la piel: El Heartleaf tiene propiedades antiinflamatorias que reducen las rojeces y cuidan las pieles sensibles o con acné. No obstruye los poros: Tiene una textura muy ligera (no comedogénica) que no deja sensación grasosa. Desmaquilla sin frotar: Retira maquillaje a prueba de agua y filtros solares con total suavidad.",
+    "detalles": {
+      "precioRecomendado": 0,
+      "descripcion": ""
+    }
+  },
+  {
+    "id": "80",
+    "titulo": "SKIN1004 Madagascar Centella Hyalu-Cica Water-Fit Sun Serum Twin Pack SPF50+ PA++++",
+    "categoria": "SKIN1004",
+    "precio": 125,
+    "imagenProducto": "1781119971_SKIN1004_MadagascarCentellaHyalu-CicaWater-FitSunSerumTwinPack_Photo4.jpg",
+    "descripcion": "✔️1UD s/125 ✔️3UD S/95 ✔️6UD S/92 ✔️12UD S/89",
+    "detalles": {
+      "precioRecomendado": 0,
+      "descripcion": ""
+    }
+  },
+  {
+    "id": "210",
+    "titulo": "Mixsoon Bean Essence",
+    "categoria": "MIXSOON",
+    "precio": 89,
+    "imagenProducto": "1770669579_descarga.jpg",
+    "descripcion": "✔️1UD S/89 ✔️3UDS S/72 ✔️6UDS S/71 ✔️12UDS S/70 🔴Precio venta recomendado: S/110 Es el secreto para una piel más fresca, radiante y rejuvenecida. Esta esencia, rica en extracto de frijol, está llena de antioxidantes, vitaminas y minerales que ayudan a nutrir y regenerar la piel. Su fórmula ligera y potente combate la deshidratación, mejorando la textura de la piel y promoviendo un tono más uniforme.",
+    "detalles": {
+      "img": "uploads/1770669579_descarga.jpg",
+      "stock": [
+        {
+          "cantidad": 1,
+          "precio": 89
+        },
+        {
+          "cantidad": 3,
+          "precio": 72
+        },
+        {
+          "cantidad": 6,
+          "precio": 71
+        },
+        {
+          "cantidad": 12,
+          "precio": 70
+        }
+      ],
+      "precioRecomendado": 110,
+      "descripcion": "Es el secreto para una piel más fresca, radiante y rejuvenecida. Esta esencia, rica en extracto de frijol, está llena de antioxidantes, vitaminas y minerales que ayudan a nutrir y regenerar la piel. Su fórmula ligera y potente combate la deshidratación, mejorando la textura de la piel y promoviendo un tono más uniforme.",
+      "cantidad": "",
+      "precio": 89
+    }
+  },
+  {
+    "id": "117",
+    "titulo": "GLUTATHIONE VITAMIN CONCENTRATED SERUM 5+ NUMBUZIN",
+    "categoria": "NUMBUZIN",
+    "precio": 85,
+    "imagenProducto": "1778346877_Captura de pantalla 2026-05-09 121228.png",
+    "descripcion": "✔️1 UD s/85 ✔️3 UD S/62 ✔️6 UD s/61 ✔️12 UD s/60 Este suero concentrado está diseñado específicamente para combatir la hiperpigmentación y unificar el tono de la piel mediante una potente mezcla de ingredientes iluminadores y antioxidantes. Beneficios Principales Acción Despigmentante: Reduce visiblemente la apariencia de manchas oscuras, pecas y marcas post-acné gracias a la combinación de Glutatión y Niacinamida (5%). Iluminación Intensiva: Revitaliza las pieles opacas y fatigadas, devolviendo un brillo natural y saludable desde el interior. Cuidado Antioxidante: Contiene vitaminas C, E y Coenzima Q10, que protegen las células del daño oxidativo y previenen el envejecimiento prematuro. Fórmula Calmante: Enriquecido con extracto de Arándano y Pantenol, que ayudan a calmar la irritación mientras los activos trabajan en la textura de la piel. Función del Producto Actúa directamente sobre la producción de melanina para aclarar zonas hiperpigmentadas. Su textura ligera permite una absorción profunda, mejorando la claridad de la piel y suavizando la textura irregular sin dejar sensación grasa. Es ideal para tratar manchas persistentes y lograr una tez más transparente y radiante.",
+    "detalles": {
+      "precioRecomendado": 0,
+      "descripcion": ""
+    }
+  },
+  {
+    "id": "179",
+    "titulo": "CELIMAX THE REAL NONI AMPOULE CALMING + RADIANCE 50ML",
+    "categoria": "CELIMAX",
+    "precio": 79,
+    "imagenProducto": "1770851626_Ampolla Dfght A_ Celimax Noni Calming + Radiance De 50 Yjtja.jfif",
+    "descripcion": "✔️1 ud S/79 ✔️3 ud a más S/62 ✔️6 ud a más S/61 ✔️12 ud a más S/60 🔴Precio recomendado S/89 Infundido con extracto de noni rico en minerales y vitaminas, junto con ácido hialurónico y escualeno, mejora la vitalidad de la piel, proporcionando alivio de la irritación visible y las preocupaciones de la piel, lo que resulta en una piel más suave. Reduce la rojez y la inflamación, proporcionando un alivio inmediato para las pieles sensibles. Unifica el tono de tu piel y revela un cutis radiante y saludable.",
+    "detalles": {
+      "precioRecomendado": 0,
+      "descripcion": ""
+    }
+  },
+  {
+    "id": "16",
+    "titulo": "PORE + DARK SPOT BRIGHTENING CREAM",
+    "categoria": "CELIMAX",
+    "precio": 89,
+    "imagenProducto": "1789512047_Captura de pantalla 2026-09-15 173706.png",
+    "descripcion": "✔️1UD S/89 ✔️3UDS S/66 ✔️6UDS S/65 ✔️12UDS S/64 🔴PRECIO RECOMENDADO: S/95 La Pore + Dark Spot Brightening Cream de Celimax es una crema facial despigmentante e hidratante que atenúa manchas oscuras y reduce la apariencia de los poros dilatados. Beneficios clave Aclara las manchas: Atenúa hiperpigmentación, marcas de acné, pecas y manchas por el sol gracias a su complejo de Niacinamida (5%), Ácido Tranexámico (5%) y Melazero V2 (1%). Reduce los poros: Mejora la estructura de los poros dilatados y otorga un efecto tensor visible para alisar la textura de la piel. Unifica el tono: Equilibra el color desigual en el rostro y el cuello. Ilumina y da brillo: Revitaliza la piel apagada y aporta un aspecto saludable (glow). Hidrata sin engrasar: Posee una textura ligera de rápida absorción que no se siente pesada ni obstruye los poros.",
+    "detalles": {
+      "img": "uploads/1789512047_Captura de pantalla 2026-09-15 173706.png",
+      "stock": [
+        {
+          "cantidad": 1,
+          "precio": 89
+        },
+        {
+          "cantidad": 3,
+          "precio": 66
+        },
+        {
+          "cantidad": 6,
+          "precio": 65
+        },
+        {
+          "cantidad": 12,
+          "precio": 64
+        }
+      ],
+      "precioRecomendado": 95,
+      "descripcion": "La Pore + Dark Spot Brightening Cream de Celimax es una crema facial despigmentante e hidratante que atenúa manchas oscuras y reduce la apariencia de los poros dilatados. Beneficios clave Aclara las manchas: Atenúa hiperpigmentación, marcas de acné, pecas y manchas por el sol gracias a su complejo de Niacinamida (5%), Ácido Tranexámico (5%) y Melazero V2 (1%). Reduce los poros: Mejora la estructura de los poros dilatados y otorga un efecto tensor visible para alisar la textura de la piel. Unifica el tono: Equilibra el color desigual en el rostro y el cuello. Ilumina y da brillo: Revitaliza la piel apagada y aporta un aspecto saludable (glow). Hidrata sin engrasar: Posee una textura ligera de rápida absorción que no se siente pesada ni obstruye los poros.",
+      "cantidad": "",
+      "precio": 89
+    }
+  },
+  {
+    "id": "83",
+    "titulo": "PORE + DARK SPOT BRIGHTENING SERUM 30ML CELIMAX",
+    "categoria": "CELIMAX",
+    "precio": 90,
+    "imagenProducto": "1781118736_Cerave-LRP-Productos-ecommerce-2025-02-26T143316.464.jpg",
+    "descripcion": "✔️1UD S/90 ✔️3UD S/70 ✔️6UD S/69 ✔️12UD S/68 🔴PRECIO RECOMENDADO: S/95 El Pore + Dark Spot Brightening Serum de Celimax es un suero facial de triple acción que ayuda a reducir la apariencia de los poros dilatados, atenúa manchas oscuras y unifica el tono de la piel. Beneficios principales Corrección de manchas: Atenúa hiperpigmentación, marcas post-acné y manchas solares gracias a su acción despigmentante. Refinamiento de poros: Mejora la textura irregular y disminuye la visibilidad de los poros dilatados. Control de sebo: Regula la producción de grasa sin resecar, ideal para pieles mixtas y grasas. Luminosidad: Aporta brillo natural y deja un tono más uniforme y radiante (efecto piel de porcelana). Textura ligera: Su fórmula no es pegajosa, se absorbe rápidamente y es apta para todo tipo de pieles, incluidas las sensibles.",
+    "detalles": {
+      "img": "uploads/1781118736_Cerave-LRP-Productos-ecommerce-2025-02-26T143316.464.jpg",
+      "stock": [
+        {
+          "cantidad": 1,
+          "precio": 90
+        },
+        {
+          "cantidad": 3,
+          "precio": 70
+        },
+        {
+          "cantidad": 6,
+          "precio": 69
+        },
+        {
+          "cantidad": 12,
+          "precio": 68
+        }
+      ],
+      "precioRecomendado": 95,
+      "descripcion": "El Pore + Dark Spot Brightening Serum de Celimax es un suero facial de triple acción que ayuda a reducir la apariencia de los poros dilatados, atenúa manchas oscuras y unifica el tono de la piel. Beneficios principales Corrección de manchas: Atenúa hiperpigmentación, marcas post-acné y manchas solares gracias a su acción despigmentante. Refinamiento de poros: Mejora la textura irregular y disminuye la visibilidad de los poros dilatados. Control de sebo: Regula la producción de grasa sin resecar, ideal para pieles mixtas y grasas. Luminosidad: Aporta brillo natural y deja un tono más uniforme y radiante (efecto piel de porcelana). Textura ligera: Su fórmula no es pegajosa, se absorbe rápidamente y es apta para todo tipo de pieles, incluidas las sensibles.",
+      "cantidad": "",
+      "precio": 90
+    }
+  },
+  {
+    "id": "186",
+    "titulo": "CELIMAX DERMA NATURE FRESH BLACKHEAD JOJOBA CLEANSING OIL 150ml",
+    "categoria": "CELIMAX",
+    "precio": 78,
+    "imagenProducto": "1770847398_Celimax Derma Nature - Aceite limpiador.jfif",
+    "descripcion": "✔️1 ud s/78 ✔️3 ud a más S/57 ✔️6 ud a más S/56 ✔️12 ud a más S/55 🔴Precio recomendado S/ 85 La propiedad hidrofílica del Aceite Limpiador de Jojoba Fresh Blackhead lo hace lo suficientemente ligero como para usarse en pieles grasas o sensibles. Mezclado con agua, el aceite limpiador forma una sustancia ligera y ligeramente espumosa similar a la leche, que absorbe y disuelve la grasa en los poros para eliminar por completo el maquillaje y los puntos negros sin dejar residuos ni irritación.",
+    "detalles": {
+      "img": "uploads/1770847398_Celimax Derma Nature - Aceite limpiador.jfif",
+      "stock": [
+        {
+          "cantidad": 1,
+          "precio": 78
+        },
+        {
+          "cantidad": 3,
+          "precio": 57
+        },
+        {
+          "cantidad": 6,
+          "precio": 56
+        },
+        {
+          "cantidad": 12,
+          "precio": 55
+        }
+      ],
+      "precioRecomendado": 85,
+      "descripcion": "La propiedad hidrofílica del Aceite Limpiador de Jojoba Fresh Blackhead lo hace lo suficientemente ligero como para usarse en pieles grasas o sensibles. Mezclado con agua, el aceite limpiador forma una sustancia ligera y ligeramente espumosa similar a la leche, que absorbe y disuelve la grasa en los poros para eliminar por completo el maquillaje y los puntos negros sin dejar residuos ni irritación.",
+      "cantidad": "",
+      "precio": 78
+    }
+  },
+  {
+    "id": "208",
+    "titulo": "MIXSOON BEAN CLEANSING OIL 195ML",
+    "categoria": "MIXSOON",
+    "precio": 85,
+    "imagenProducto": "1770675095_Bean Cleansing Oil - Mixsoon _ Ulta Beauty.jpg",
+    "descripcion": "✔️1 UD s/85 ✔️3 UD S/63 ✔️6 UD S/62 ✔️12 UD S/61 🔴Precio venta recomendado: s/90 Tiene una textura de aceite líquido ligero que no deja residuos en la piel, sino deja una sensación fresca e hidratada después de usar. Hidrata la piel mientras elimina eficazmente el maquillaje y las impurezas. Con un acabado refrescante e hidratante sin sensación residual, esta formula es buena para la limpieza diaria incluso en pieles grasas.",
+    "detalles": {
+      "img": "uploads/1770675095_Bean Cleansing Oil - Mixsoon _ Ulta Beauty.jpg",
+      "stock": [
+        {
+          "cantidad": 1,
+          "precio": 85
+        },
+        {
+          "cantidad": 3,
+          "precio": 63
+        },
+        {
+          "cantidad": 6,
+          "precio": 62
+        },
+        {
+          "cantidad": 12,
+          "precio": 61
+        }
+      ],
+      "precioRecomendado": 90,
+      "descripcion": "Tiene una textura de aceite líquido ligero que no deja residuos en la piel, sino deja una sensación fresca e hidratada después de usar. Hidrata la piel mientras elimina eficazmente el maquillaje y las impurezas. Con un acabado refrescante e hidratante sin sensación residual, esta formula es buena para la limpieza diaria incluso en pieles grasas.",
+      "cantidad": "",
+      "precio": 85
+    }
+  },
+  {
+    "id": "235",
+    "titulo": "CENTELLA AMPOULE FOAM 125ML",
+    "categoria": "SKIN1004",
+    "precio": 75,
+    "imagenProducto": "1769717898_descarga (8).jfif",
+    "descripcion": "✔️1 UD s/75 ✔️3 UD s/ 46 🔴Precio venta recomendado: s/75 Es un limpiador facial en espuma formulado con un 84 % de extracto de Centella Asiatica de Madagascar, desarrollado para proporcionar una limpieza profunda pero suave, sin dañar la barrera cutánea ni resecar la piel .",
+    "detalles": {
+      "precioRecomendado": 0,
+      "descripcion": ""
+    }
+  },
+  {
+    "id": "232",
+    "titulo": "CENTELLA POREMIZING FRESH AMPOULE 100ML",
+    "categoria": "SKIN1004",
+    "precio": 87,
+    "imagenProducto": "1769718558_Skincare- Skin1004 Madagascar Centella Poremizing Fresh Ampoule (1).jfif",
+    "descripcion": "✔️1 ud s/87 ✔️3 ud s/67 ✔️6 ud s/66 ✔️12 ud s/65 🔴Precio recomendable S/ 90 Calmar la piel irritada, reducir el enrojecimiento y inflamación, hidrata la piel profundament, ayude con el acné o brotes leves",
+    "detalles": {
+      "precioRecomendado": 0,
+      "descripcion": ""
+    }
+  },
+  {
+    "id": "234",
+    "titulo": "MADAGASCAR CENTELLA LIGHT CLEANSING OIL 200 ML",
+    "categoria": "SKIN1004",
+    "precio": 75,
+    "imagenProducto": "1769718020_SKIN1004 Madagascar Centella Light Cleansing Oil.jfif",
+    "descripcion": "✔️1 ud s/75 ✔️3 ud a mas s/57 ✔️6 ud a mas s/56 ✔️12 ud a mas s/55 🔴Precio venta recomendado: s/85 Aceite limpiador ligero con extracto de centella asiática y 6 aceites botánicos. Disuelve suavemente maquillaje, protector solar, sebo e impurezas, dejando la piel limpia, calmada y sin sensación grasosa. Ideal para pieles sensibles, secas, mixtas o propensas al acné",
+    "detalles": {
+      "precioRecomendado": 0,
+      "descripcion": ""
+    }
+  },
+  {
+    "id": "229",
+    "titulo": "Hyalu-Cica Water-Fit Sun Serum 50ml SKIN1004",
+    "categoria": "SKIN1004",
+    "precio": 80,
+    "imagenProducto": "1786205125_Captura de pantalla 2026-08-08 110432.png",
+    "descripcion": "✔️1UD S/80 ✔️3UDS S/55 ✔️6UDS S/54 ✔️12UDS S/53 🔴Precio venta recomendado: S/95 Transforma tu rutina con nuestra barra solar química! Se desliza suavemente y ofrece hidratación instantánea con un acabado mate y sedoso. Ideal para pieles sensibles, normales y secas, mejora el sebo y protege contra los rayos UV. Enriquecida con Extracto de Centella Asiática, Ácido Hialurónico y Extracto de Cáscara de Castanea Crenata, para una piel hidratada, equilibrada y radiante.",
+    "detalles": {
+      "img": "uploads/1786205125_Captura de pantalla 2026-08-08 110432.png",
+      "stock": [
+        {
+          "cantidad": 1,
+          "precio": 80
+        },
+        {
+          "cantidad": 3,
+          "precio": 55
+        },
+        {
+          "cantidad": 6,
+          "precio": 54
+        },
+        {
+          "cantidad": 12,
+          "precio": 53
+        }
+      ],
+      "precioRecomendado": 95,
+      "descripcion": "Transforma tu rutina con nuestra barra solar química! Se desliza suavemente y ofrece hidratación instantánea con un acabado mate y sedoso. Ideal para pieles sensibles, normales y secas, mejora el sebo y protege contra los rayos UV. Enriquecida con Extracto de Centella Asiática, Ácido Hialurónico y Extracto de Cáscara de Castanea Crenata, para una piel hidratada, equilibrada y radiante.",
+      "cantidad": "",
+      "precio": 80
+    }
+  },
+  {
     "id": "1",
     "titulo": "Birch Juice Moisturizing Tone-Up Sunscreen",
     "categoria": "ROUND LAB",
@@ -474,39 +883,6 @@
     }
   },
   {
-    "id": "16",
-    "titulo": "PORE + DARK SPOT BRIGHTENING CREAM",
-    "categoria": "CELIMAX",
-    "precio": 89,
-    "imagenProducto": "1789512047_Captura de pantalla 2026-09-15 173706.png",
-    "descripcion": "✔️1UD S/89 ✔️3UDS S/66 ✔️6UDS S/65 ✔️12UDS S/64 🔴PRECIO RECOMENDADO: S/95 La Pore + Dark Spot Brightening Cream de Celimax es una crema facial despigmentante e hidratante que atenúa manchas oscuras y reduce la apariencia de los poros dilatados. Beneficios clave Aclara las manchas: Atenúa hiperpigmentación, marcas de acné, pecas y manchas por el sol gracias a su complejo de Niacinamida (5%), Ácido Tranexámico (5%) y Melazero V2 (1%). Reduce los poros: Mejora la estructura de los poros dilatados y otorga un efecto tensor visible para alisar la textura de la piel. Unifica el tono: Equilibra el color desigual en el rostro y el cuello. Ilumina y da brillo: Revitaliza la piel apagada y aporta un aspecto saludable (glow). Hidrata sin engrasar: Posee una textura ligera de rápida absorción que no se siente pesada ni obstruye los poros.",
-    "detalles": {
-      "img": "uploads/1789512047_Captura de pantalla 2026-09-15 173706.png",
-      "stock": [
-        {
-          "cantidad": 1,
-          "precio": 89
-        },
-        {
-          "cantidad": 3,
-          "precio": 66
-        },
-        {
-          "cantidad": 6,
-          "precio": 65
-        },
-        {
-          "cantidad": 12,
-          "precio": 64
-        }
-      ],
-      "precioRecomendado": 95,
-      "descripcion": "La Pore + Dark Spot Brightening Cream de Celimax es una crema facial despigmentante e hidratante que atenúa manchas oscuras y reduce la apariencia de los poros dilatados. Beneficios clave Aclara las manchas: Atenúa hiperpigmentación, marcas de acné, pecas y manchas por el sol gracias a su complejo de Niacinamida (5%), Ácido Tranexámico (5%) y Melazero V2 (1%). Reduce los poros: Mejora la estructura de los poros dilatados y otorga un efecto tensor visible para alisar la textura de la piel. Unifica el tono: Equilibra el color desigual en el rostro y el cuello. Ilumina y da brillo: Revitaliza la piel apagada y aporta un aspecto saludable (glow). Hidrata sin engrasar: Posee una textura ligera de rápida absorción que no se siente pesada ni obstruye los poros.",
-      "cantidad": "",
-      "precio": 89
-    }
-  },
-  {
     "id": "17",
     "titulo": "Cooling Eye Mask",
     "categoria": "ACCESORIOS",
@@ -603,18 +979,6 @@
       "descripcion": "El kit de cuidado facial 345 (de la marca coreana Dr. Althea), que incluye la famosa 345 Relief Cream junto con su sérum y bruma complementarios, sirve para calmar la piel irritada, reparar la barrera cutánea y desvanecer marcas de acné sin dejar una sensación pesada. Beneficios principales Calma la irritación: Reduce el enrojecimiento, la inflamación de brotes activos y la sensación de tirantez. Repara y fortalece: Cuida y recupera la barrera de la piel, especialmente si está sensible por el uso de ácidos o retinoides. Aclara marcas de acné: Ayuda a unificar el tono del rostro y difuminar manchitas gracias a componentes como la niacinamida. Hidrata sin engrasar: Aporta nutrición profunda en múltiples capas con una textura ligera en gel-crema ideal para pieles mixtas, grasas o sensibles. Contiene: 345 Relief Cream Mist 60ml 345 Relief Cream 15ml 345 Relief Serum 15ml",
       "cantidad": "60ml",
       "precio": 120
-    }
-  },
-  {
-    "id": "20",
-    "titulo": "Nida Youthful Formula Ultimate Moisturizing Cream",
-    "categoria": "NIDA",
-    "precio": 65,
-    "imagenProducto": "1787081009_Captura de pantalla 2026-08-13 111404.png",
-    "descripcion": "✔️1UD S/65 ✔️3UDS S/45 ✔️6UDS S/43 ✔️12UDS S/40 🔴PRECIO RECOMENDADO: S/85 La NIDA Youthful Formula Ultimate Moisturizing Cream es una crema facial hidratante multifunción 5 en 1 de cosmética coreana. Destaca por combatir la resequedad, las líneas finas, los poros dilatados, las manchas y las rojeces con una textura ligera de rápida absorción. Beneficios Principales Hidratación profunda: Rellena y retiene la humedad gracias al ácido hialurónico. Unifica el tono y da luz: La niacinamida ayuda a reducir manchas y poros visibles. Mejora la firmeza: El colágeno y la adenosina reafirman y mejoran la elasticidad. Calma la piel: La centella asiática disminuye rojeces e irritaciones",
-    "detalles": {
-      "precioRecomendado": 0,
-      "descripcion": ""
     }
   },
   {
@@ -1012,18 +1376,6 @@
     }
   },
   {
-    "id": "37",
-    "titulo": "SKIN1004 Poremizing Velvet Finish Sunscreen",
-    "categoria": "SKIN1004",
-    "precio": 85,
-    "imagenProducto": "1784744489_Captura de pantalla 2026-07-22 105000.png",
-    "descripcion": "✔️1UD S/85 ✔️3UDS S/63 ✔️6UDS S/62 ✔️12UDS S/60 🔴PRECIO RECOMENDADO: S/95 El protector solar SKIN1004 Poremizing Velvet Finish Sunscreen protege tu piel del sol y controla el brillo. Aporta un ligero color beige que disimula los poros abiertos y unifica el tono, dejando un efecto aterciopelado. Sus beneficios principales son: Alta protección: Filtro SPF50+ (protege de quemaduras) y PA++++ (evita el envejecimiento prematuro por el sol). Efecto terciopelo: Su fórmula deja un acabado mate sin brillo, ideal si tienes piel mixta o grasa. Disimula los poros: Su color y textura rellenan y esconden los poros dilatados, actuando como base de maquillaje. Calma la piel: Contiene Centella Asiática, un ingrediente natural que ayuda a relajar y reparar la piel irritada. No es pesado: Es ligero y no deja sensación pegajosa.",
-    "detalles": {
-      "precioRecomendado": 0,
-      "descripcion": ""
-    }
-  },
-  {
     "id": "38",
     "titulo": "1025 DOKDO CLEANSING OIL",
     "categoria": "ROUND LAB",
@@ -1054,18 +1406,6 @@
       "descripcion": "El ROUND LAB 1025 Dokdo Cleansing Oil limpia tu rostro a fondo. Elimina el maquillaje, el protector solar, el exceso de grasa y la suciedad. Cuida tu piel sensible y la mantiene suave gracias a su agua mineral marina, ceramidas y pantenol. Sus beneficios principales son: Disuelve el maquillaje: Retira los productos a prueba de agua sin frotar fuerte. Controla la grasa: Limpia los poros y quita el sebo (aceite natural de la cara) sin resecar. No irrita: Calma la piel sensible y mantiene su barrera de humedad. Se vuelve leche: Al contacto con el agua, el aceite se vuelve una crema blanca y se enjuaga fácil.",
       "cantidad": "",
       "precio": 80
-    }
-  },
-  {
-    "id": "39",
-    "titulo": "ANUA HEARTLEAF PORE CONTROL CLEANSING OIL",
-    "categoria": "anua",
-    "precio": 80,
-    "imagenProducto": "1784733748_Captura de pantalla 2026-07-22 101812.png",
-    "descripcion": "✔️1UD S/80 ✔️3UDS S/65 ✔️6UDS S/61 ✔️12UDS S/60 🔴PRECIO RECOMENDADO: S/85 El ANUA Heartleaf Pore Control Cleansing Oil es un aceite limpiador facial que disuelve maquillaje, protector solar y exceso de grasa. Gracias al extracto de Heartleaf (hoja de corazón), limpia los poros a fondo y calma la piel sin causar irritación ni brotes de acné. Beneficios principales Controla la grasa: Remueve los \"filamentos sebáceos\" (puntos negros y blancos) y regula la producción de sebo de forma natural. Calma la piel: El Heartleaf tiene propiedades antiinflamatorias que reducen las rojeces y cuidan las pieles sensibles o con acné. No obstruye los poros: Tiene una textura muy ligera (no comedogénica) que no deja sensación grasosa. Desmaquilla sin frotar: Retira maquillaje a prueba de agua y filtros solares con total suavidad.",
-    "detalles": {
-      "precioRecomendado": 0,
-      "descripcion": ""
     }
   },
   {
@@ -1392,39 +1732,6 @@
       "descripcion": "El Round Lab 1025 Dokdo Toner es un tónico multifuncional que hidrata profundamente, exfolia suavemente para eliminar células muertas, y calma la irritación. Formulado con agua de mar profunda de la isla de Dokdo, rica en minerales, y el ingrediente exfoliante HATCHING EX-07, ayuda a preparar la piel para absorber mejor el resto de tu rutina. Puedes explorar los siguientes beneficios clave de este popular tónico coreano: Hidratación profunda y ligera: Gracias a su contenido de pantenol, alantoína y betaína, calma eficazmente las pieles cansadas y sensibles sin dejar sensación pegajosa. Exfoliación suave: Retira el exceso de sebo y las células muertas, mejorando la textura de la piel y aportando luminosidad. Equilibrio y barrera cutánea: Ayuda a mantener el equilibrio hidrolípico y restablece el pH natural de la piel después de la limpieza",
       "cantidad": "",
       "precio": 65
-    }
-  },
-  {
-    "id": "52",
-    "titulo": "1025 Dokdo Cleanser",
-    "categoria": "ROUND LAB",
-    "precio": 70,
-    "imagenProducto": "1783026867_DDW.webp",
-    "descripcion": "✔️1UD S/70 ✔️3UD S/47 ✔️6UD S/46 ✔️12UD S/45 🔴PRECIO RECOMENDADO: S/80 El Round Lab 1025 Dokdo Cleanser es un limpiador facial coreano con pH bajo (5.0–6.0) ideal para pieles sensibles. Sus beneficios incluyen la eliminación eficaz de impurezas y maquillaje ligero sin resecar, fortalecimiento de la barrera cutánea (gracias a ceramidas y ácido hialurónico) y un efecto calmante profundo. Beneficios principales: Limpieza suave: Su textura cremosa se transforma en una espuma fina que elimina el exceso de sebo y suciedad respetando la barrera natural. Hidratación profunda: Contiene agua de mar profunda de Ulleungdo (rica en minerales) y ácido hialurónico que evitan la sensación de tirantez después del lavado. Protección y calma: Enriquecido con pantenol, alantoína y ceramidas, alivia la irritación y protege la piel del estrés externo. Equilibrio de pH: Al ser ligeramente ácido, mantiene el manto protector de la piel sano, haciéndolo perfecto para uso diario (mañana y noche).",
-    "detalles": {
-      "img": "uploads/1783026867_DDW.webp",
-      "stock": [
-        {
-          "cantidad": 1,
-          "precio": 70
-        },
-        {
-          "cantidad": 3,
-          "precio": 47
-        },
-        {
-          "cantidad": 6,
-          "precio": 46
-        },
-        {
-          "cantidad": 12,
-          "precio": 45
-        }
-      ],
-      "precioRecomendado": 80,
-      "descripcion": "El Round Lab 1025 Dokdo Cleanser es un limpiador facial coreano con pH bajo (5.0–6.0) ideal para pieles sensibles. Sus beneficios incluyen la eliminación eficaz de impurezas y maquillaje ligero sin resecar, fortalecimiento de la barrera cutánea (gracias a ceramidas y ácido hialurónico) y un efecto calmante profundo. Beneficios principales: Limpieza suave: Su textura cremosa se transforma en una espuma fina que elimina el exceso de sebo y suciedad respetando la barrera natural. Hidratación profunda: Contiene agua de mar profunda de Ulleungdo (rica en minerales) y ácido hialurónico que evitan la sensación de tirantez después del lavado. Protección y calma: Enriquecido con pantenol, alantoína y ceramidas, alivia la irritación y protege la piel del estrés externo. Equilibrio de pH: Al ser ligeramente ácido, mantiene el manto protector de la piel sano, haciéndolo perfecto para uso diario (mañana y noche).",
-      "cantidad": "",
-      "precio": 70
     }
   },
   {
@@ -2156,18 +2463,6 @@
     }
   },
   {
-    "id": "80",
-    "titulo": "SKIN1004 Madagascar Centella Hyalu-Cica Water-Fit Sun Serum Twin Pack SPF50+ PA++++",
-    "categoria": "SKIN1004",
-    "precio": 125,
-    "imagenProducto": "1781119971_SKIN1004_MadagascarCentellaHyalu-CicaWater-FitSunSerumTwinPack_Photo4.jpg",
-    "descripcion": "✔️1UD s/125 ✔️3UD S/95 ✔️6UD S/92 ✔️12UD S/89",
-    "detalles": {
-      "precioRecomendado": 0,
-      "descripcion": ""
-    }
-  },
-  {
     "id": "81",
     "titulo": "PDRN Pink Collagen Gel Mask",
     "categoria": "MEDICUBE",
@@ -2210,39 +2505,6 @@
       "descripcion": "La Dr. Althea Aqua Marine Jelly Mist es una bruma facial de textura gel que se transforma en microgotas al rociar. Hidrata, refresca y calma la piel al instante, aportando un brillo luminoso y jugoso (\"glass skin\") sin dejar sensación pesada ni pegajosa. Sus beneficios clave incluyen: Hidratación intensa: Su fórmula con 10% de agua de mar profunda, ácido hialurónico y PDRN vegano penetra profundamente para revitalizar la piel deshidratada. Efecto calmante: Gracias a ingredientes como centella asiática, pantenol y extracto de malaquita (que le otorga su característico tono azul), alivia irritaciones y reduce las rojeces. Versatilidad de uso: Se puede aplicar como un tónico, como un sérum ligero en una rutina rápida, antes o después del maquillaje, o para refrescar el rostro durante el día cuando la piel se siente acartonada. Protección antioxidante: Los minerales marinos y el extracto de malaquita ayudan a proteger la piel de los radicales libres y el daño ambiental.",
       "cantidad": "",
       "precio": 95
-    }
-  },
-  {
-    "id": "83",
-    "titulo": "PORE + DARK SPOT BRIGHTENING SERUM 30ML CELIMAX",
-    "categoria": "CELIMAX",
-    "precio": 90,
-    "imagenProducto": "1781118736_Cerave-LRP-Productos-ecommerce-2025-02-26T143316.464.jpg",
-    "descripcion": "✔️1UD S/90 ✔️3UD S/70 ✔️6UD S/69 ✔️12UD S/68 🔴PRECIO RECOMENDADO: S/95 El Pore + Dark Spot Brightening Serum de Celimax es un suero facial de triple acción que ayuda a reducir la apariencia de los poros dilatados, atenúa manchas oscuras y unifica el tono de la piel. Beneficios principales Corrección de manchas: Atenúa hiperpigmentación, marcas post-acné y manchas solares gracias a su acción despigmentante. Refinamiento de poros: Mejora la textura irregular y disminuye la visibilidad de los poros dilatados. Control de sebo: Regula la producción de grasa sin resecar, ideal para pieles mixtas y grasas. Luminosidad: Aporta brillo natural y deja un tono más uniforme y radiante (efecto piel de porcelana). Textura ligera: Su fórmula no es pegajosa, se absorbe rápidamente y es apta para todo tipo de pieles, incluidas las sensibles.",
-    "detalles": {
-      "img": "uploads/1781118736_Cerave-LRP-Productos-ecommerce-2025-02-26T143316.464.jpg",
-      "stock": [
-        {
-          "cantidad": 1,
-          "precio": 90
-        },
-        {
-          "cantidad": 3,
-          "precio": 70
-        },
-        {
-          "cantidad": 6,
-          "precio": 69
-        },
-        {
-          "cantidad": 12,
-          "precio": 68
-        }
-      ],
-      "precioRecomendado": 95,
-      "descripcion": "El Pore + Dark Spot Brightening Serum de Celimax es un suero facial de triple acción que ayuda a reducir la apariencia de los poros dilatados, atenúa manchas oscuras y unifica el tono de la piel. Beneficios principales Corrección de manchas: Atenúa hiperpigmentación, marcas post-acné y manchas solares gracias a su acción despigmentante. Refinamiento de poros: Mejora la textura irregular y disminuye la visibilidad de los poros dilatados. Control de sebo: Regula la producción de grasa sin resecar, ideal para pieles mixtas y grasas. Luminosidad: Aporta brillo natural y deja un tono más uniforme y radiante (efecto piel de porcelana). Textura ligera: Su fórmula no es pegajosa, se absorbe rápidamente y es apta para todo tipo de pieles, incluidas las sensibles.",
-      "cantidad": "",
-      "precio": 90
     }
   },
   {
@@ -2891,18 +3153,6 @@
       "descripcion": "Esta crema para el contorno de ojos destaca por su tecnología regenerativa avanzada, enfocándose en la elasticidad y el brillo de la mirada mediante el uso de PDRN de origen vegetal (salmón). Beneficios Principales Regeneración Profunda: Utiliza el PDRN para estimular la reparación celular, ayudando a fortalecer la delicada barrera de la piel alrededor de los ojos. Efecto Tensor y Antiedad: Gracias a su complejo de 5 tipos de péptidos, mejora significativamente la firmeza y reduce la profundidad de las líneas de expresión y arrugas. Corrección de Tono: Combate las ojeras oscuras y la opacidad, proporcionando un efecto iluminador inmediato y a largo plazo. Hidratación de Alta Retención: Su densidad cremosa sella la humedad sin dejar pesadez, evitando que el corrector o el maquillaje se cuarteen durante el día. Función del Producto Este tratamiento actúa como un \"rellenador\" de hidratación y firmeza para el área periorbital. Su fórmula rosada característica no es solo estética; está optimizada para revitalizar el tejido fatigado, desinflamar ligeramente y devolver la elasticidad perdida por factores ambientales o el paso del tiempo. Es una solución intensiva para quienes buscan una mirada más abierta, descansada y rejuvenecida.",
       "cantidad": "",
       "precio": 95
-    }
-  },
-  {
-    "id": "117",
-    "titulo": "GLUTATHIONE VITAMIN CONCENTRATED SERUM 5+ NUMBUZIN",
-    "categoria": "NUMBUZIN",
-    "precio": 85,
-    "imagenProducto": "1778346877_Captura de pantalla 2026-05-09 121228.png",
-    "descripcion": "✔️1 UD s/85 ✔️3 UD S/62 ✔️6 UD s/61 ✔️12 UD s/60 Este suero concentrado está diseñado específicamente para combatir la hiperpigmentación y unificar el tono de la piel mediante una potente mezcla de ingredientes iluminadores y antioxidantes. Beneficios Principales Acción Despigmentante: Reduce visiblemente la apariencia de manchas oscuras, pecas y marcas post-acné gracias a la combinación de Glutatión y Niacinamida (5%). Iluminación Intensiva: Revitaliza las pieles opacas y fatigadas, devolviendo un brillo natural y saludable desde el interior. Cuidado Antioxidante: Contiene vitaminas C, E y Coenzima Q10, que protegen las células del daño oxidativo y previenen el envejecimiento prematuro. Fórmula Calmante: Enriquecido con extracto de Arándano y Pantenol, que ayudan a calmar la irritación mientras los activos trabajan en la textura de la piel. Función del Producto Actúa directamente sobre la producción de melanina para aclarar zonas hiperpigmentadas. Su textura ligera permite una absorción profunda, mejorando la claridad de la piel y suavizando la textura irregular sin dejar sensación grasa. Es ideal para tratar manchas persistentes y lograr una tez más transparente y radiante.",
-    "detalles": {
-      "precioRecomendado": 0,
-      "descripcion": ""
     }
   },
   {
@@ -3644,18 +3894,6 @@
     }
   },
   {
-    "id": "159",
-    "titulo": "PDRN Pink Peptide Serum",
-    "categoria": "MEDICUBE",
-    "precio": 105,
-    "imagenProducto": "1771956417_WhatsApp Image 2026-02-24 at 12.56.18 PM.jpeg",
-    "descripcion": "✔️1 UD s/105 ✔️3 c/u S/85 ✔️6UD S/83 ✔️12UD S/82 🔴Precio recomendado:s/110 es un suero antiedad diseñado para regenerar, reafirmar e iluminar la piel, mejorando su elasticidad y suavizando líneas finas en poco tiempo. Su fórmula destaca por contener 10,000 ppm de PDRN de salmón y péptidos, lo que repara intensamente la barrera cutánea, hidrata profundamente y aporta luminosidad.",
-    "detalles": {
-      "precioRecomendado": 0,
-      "descripcion": ""
-    }
-  },
-  {
     "id": "160",
     "titulo": "SKIN1004 Madagascar Centella Even Tone Kit 20ml",
     "categoria": "SKIN1004",
@@ -3965,18 +4203,6 @@
     }
   },
   {
-    "id": "179",
-    "titulo": "CELIMAX THE REAL NONI AMPOULE CALMING + RADIANCE 50ML",
-    "categoria": "CELIMAX",
-    "precio": 79,
-    "imagenProducto": "1770851626_Ampolla Dfght A_ Celimax Noni Calming + Radiance De 50 Yjtja.jfif",
-    "descripcion": "✔️1 ud S/79 ✔️3 ud a más S/62 ✔️6 ud a más S/61 ✔️12 ud a más S/60 🔴Precio recomendado S/89 Infundido con extracto de noni rico en minerales y vitaminas, junto con ácido hialurónico y escualeno, mejora la vitalidad de la piel, proporcionando alivio de la irritación visible y las preocupaciones de la piel, lo que resulta en una piel más suave. Reduce la rojez y la inflamación, proporcionando un alivio inmediato para las pieles sensibles. Unifica el tono de tu piel y revela un cutis radiante y saludable.",
-    "detalles": {
-      "precioRecomendado": 0,
-      "descripcion": ""
-    }
-  },
-  {
     "id": "180",
     "titulo": "CELIMAX OIL CONTROL MOISTURIZING CREAM 80ml",
     "categoria": "CELIMAX",
@@ -4109,39 +4335,6 @@
     "detalles": {
       "precioRecomendado": 0,
       "descripcion": ""
-    }
-  },
-  {
-    "id": "186",
-    "titulo": "CELIMAX DERMA NATURE FRESH BLACKHEAD JOJOBA CLEANSING OIL 150ml",
-    "categoria": "CELIMAX",
-    "precio": 78,
-    "imagenProducto": "1770847398_Celimax Derma Nature - Aceite limpiador.jfif",
-    "descripcion": "✔️1 ud s/78 ✔️3 ud a más S/57 ✔️6 ud a más S/56 ✔️12 ud a más S/55 🔴Precio recomendado S/ 85 La propiedad hidrofílica del Aceite Limpiador de Jojoba Fresh Blackhead lo hace lo suficientemente ligero como para usarse en pieles grasas o sensibles. Mezclado con agua, el aceite limpiador forma una sustancia ligera y ligeramente espumosa similar a la leche, que absorbe y disuelve la grasa en los poros para eliminar por completo el maquillaje y los puntos negros sin dejar residuos ni irritación.",
-    "detalles": {
-      "img": "uploads/1770847398_Celimax Derma Nature - Aceite limpiador.jfif",
-      "stock": [
-        {
-          "cantidad": 1,
-          "precio": 78
-        },
-        {
-          "cantidad": 3,
-          "precio": 57
-        },
-        {
-          "cantidad": 6,
-          "precio": 56
-        },
-        {
-          "cantidad": 12,
-          "precio": 55
-        }
-      ],
-      "precioRecomendado": 85,
-      "descripcion": "La propiedad hidrofílica del Aceite Limpiador de Jojoba Fresh Blackhead lo hace lo suficientemente ligero como para usarse en pieles grasas o sensibles. Mezclado con agua, el aceite limpiador forma una sustancia ligera y ligeramente espumosa similar a la leche, que absorbe y disuelve la grasa en los poros para eliminar por completo el maquillaje y los puntos negros sin dejar residuos ni irritación.",
-      "cantidad": "",
-      "precio": 78
     }
   },
   {
@@ -4312,39 +4505,6 @@
     }
   },
   {
-    "id": "196",
-    "titulo": "Niacinamide 20 Serum 40ml - Jumiso",
-    "categoria": "JUMISO",
-    "precio": 95,
-    "imagenProducto": "1784658575_Captura de pantalla 2026-07-21 132923.png",
-    "descripcion": "✔️1UD S/95 ✔️3UD A MÁS S/73 ✔️6UD A MÁS S/72 ✔️12UD A MÁS S/70 🔴PRECIO RECOMENDADO S/105 Un suero concentrado que combina 20% de Niacinamida y Ácido Tranexámico (TXA) para iluminar el tono de la piel, reducir manchas oscuras y refinar los poros. Su fórmula avanzada mejora la textura, aporta luminosidad y ayuda a mantener una piel más uniforme y saludable sin sensación pegajosa.",
-    "detalles": {
-      "img": "uploads/1784658575_Captura de pantalla 2026-07-21 132923.png",
-      "stock": [
-        {
-          "cantidad": 1,
-          "precio": 95
-        },
-        {
-          "cantidad": 3,
-          "precio": 73
-        },
-        {
-          "cantidad": 6,
-          "precio": 72
-        },
-        {
-          "cantidad": 12,
-          "precio": 70
-        }
-      ],
-      "precioRecomendado": 105,
-      "descripcion": "Un suero concentrado que combina 20% de Niacinamida y Ácido Tranexámico (TXA) para iluminar el tono de la piel, reducir manchas oscuras y refinar los poros. Su fórmula avanzada mejora la textura, aporta luminosidad y ayuda a mantener una piel más uniforme y saludable sin sensación pegajosa.",
-      "cantidad": "",
-      "precio": 95
-    }
-  },
-  {
     "id": "197",
     "titulo": "Jumiso Waterfull Hyaluronic Acid Cream",
     "categoria": "JUMISO",
@@ -4420,31 +4580,6 @@
       "descripcion": "Tónico refrescante que contiene Waterfull 7-Complex de ácido hialurónico en moléculas pequeñas, medias y altas que se absorben en diferentes capas para hidratar profundamente el interior de la piel. Contiene Ceramidas que es uno de los ingredientes más importantes de los fosfolípidos, para evitar la evaporación del agua en la piel, además de protegerla de irritantes externos.",
       "cantidad": "",
       "precio": 80
-    }
-  },
-  {
-    "id": "200",
-    "titulo": "DR ALTHEA 345 Relief Cream",
-    "categoria": "DR.ALTHEA",
-    "precio": 85,
-    "imagenProducto": "1790192874_Captura de pantalla 2026-09-23 144734.png",
-    "descripcion": "✔️1UD S/85 ✔️3UDS S/60 ✔️1 CAJÓN: S/58 C/U (40 piezas) 🔴PRECIO RECOMENDADO: S/99 La crema 345 (conocida como Dr. Althea 345 Relief Cream) es un popular tratamiento hidratante coreano de textura ligera en gel. Está diseñada específicamente para calmar la piel irritada, reducir marcas y manchas de acné, y reparar la barrera cutánea. Beneficios y Características Textura ligera: Es un tipo gel-crema de rápida absorción que no deja sensación grasosa. No comedogénica: Testada clínicamente para no obstruir los poros, siendo ideal para piel mixta, grasa o con tendencia al acné. Fórmula focalizada: Su nombre \"345\" representa su combinación de activos para tratar secuelas del acné, extractos nutritivos y componentes calmantes",
-    "detalles": {
-      "img": "uploads/1790192874_Captura de pantalla 2026-09-23 144734.png",
-      "stock": [
-        {
-          "cantidad": 1,
-          "precio": 85
-        },
-        {
-          "cantidad": 3,
-          "precio": 60
-        }
-      ],
-      "precioRecomendado": 99,
-      "descripcion": "✔️1 CAJÓN: S/58 C/U (40 piezas) La crema 345 (conocida como Dr. Althea 345 Relief Cream) es un popular tratamiento hidratante coreano de textura ligera en gel. Está diseñada específicamente para calmar la piel irritada, reducir marcas y manchas de acné, y reparar la barrera cutánea. Beneficios y Características Textura ligera: Es un tipo gel-crema de rápida absorción que no deja sensación grasosa. No comedogénica: Testada clínicamente para no obstruir los poros, siendo ideal para piel mixta, grasa o con tendencia al acné. Fórmula focalizada: Su nombre \"345\" representa su combinación de activos para tratar secuelas del acné, extractos nutritivos y componentes calmantes",
-      "cantidad": "",
-      "precio": 85
     }
   },
   {
@@ -4599,39 +4734,6 @@
     }
   },
   {
-    "id": "208",
-    "titulo": "MIXSOON BEAN CLEANSING OIL 195ML",
-    "categoria": "MIXSOON",
-    "precio": 85,
-    "imagenProducto": "1770675095_Bean Cleansing Oil - Mixsoon _ Ulta Beauty.jpg",
-    "descripcion": "✔️1 UD s/85 ✔️3 UD S/63 ✔️6 UD S/62 ✔️12 UD S/61 🔴Precio venta recomendado: s/90 Tiene una textura de aceite líquido ligero que no deja residuos en la piel, sino deja una sensación fresca e hidratada después de usar. Hidrata la piel mientras elimina eficazmente el maquillaje y las impurezas. Con un acabado refrescante e hidratante sin sensación residual, esta formula es buena para la limpieza diaria incluso en pieles grasas.",
-    "detalles": {
-      "img": "uploads/1770675095_Bean Cleansing Oil - Mixsoon _ Ulta Beauty.jpg",
-      "stock": [
-        {
-          "cantidad": 1,
-          "precio": 85
-        },
-        {
-          "cantidad": 3,
-          "precio": 63
-        },
-        {
-          "cantidad": 6,
-          "precio": 62
-        },
-        {
-          "cantidad": 12,
-          "precio": 61
-        }
-      ],
-      "precioRecomendado": 90,
-      "descripcion": "Tiene una textura de aceite líquido ligero que no deja residuos en la piel, sino deja una sensación fresca e hidratada después de usar. Hidrata la piel mientras elimina eficazmente el maquillaje y las impurezas. Con un acabado refrescante e hidratante sin sensación residual, esta formula es buena para la limpieza diaria incluso en pieles grasas.",
-      "cantidad": "",
-      "precio": 85
-    }
-  },
-  {
     "id": "209",
     "titulo": "Mixsoon Centella Cleansing Foam 150ml",
     "categoria": "MIXSOON",
@@ -4641,39 +4743,6 @@
     "detalles": {
       "precioRecomendado": 0,
       "descripcion": ""
-    }
-  },
-  {
-    "id": "210",
-    "titulo": "Mixsoon Bean Essence",
-    "categoria": "MIXSOON",
-    "precio": 89,
-    "imagenProducto": "1770669579_descarga.jpg",
-    "descripcion": "✔️1UD S/89 ✔️3UDS S/72 ✔️6UDS S/71 ✔️12UDS S/70 🔴Precio venta recomendado: S/110 Es el secreto para una piel más fresca, radiante y rejuvenecida. Esta esencia, rica en extracto de frijol, está llena de antioxidantes, vitaminas y minerales que ayudan a nutrir y regenerar la piel. Su fórmula ligera y potente combate la deshidratación, mejorando la textura de la piel y promoviendo un tono más uniforme.",
-    "detalles": {
-      "img": "uploads/1770669579_descarga.jpg",
-      "stock": [
-        {
-          "cantidad": 1,
-          "precio": 89
-        },
-        {
-          "cantidad": 3,
-          "precio": 72
-        },
-        {
-          "cantidad": 6,
-          "precio": 71
-        },
-        {
-          "cantidad": 12,
-          "precio": 70
-        }
-      ],
-      "precioRecomendado": 110,
-      "descripcion": "Es el secreto para una piel más fresca, radiante y rejuvenecida. Esta esencia, rica en extracto de frijol, está llena de antioxidantes, vitaminas y minerales que ayudan a nutrir y regenerar la piel. Su fórmula ligera y potente combate la deshidratación, mejorando la textura de la piel y promoviendo un tono más uniforme.",
-      "cantidad": "",
-      "precio": 89
     }
   },
   {
@@ -5061,39 +5130,6 @@
     }
   },
   {
-    "id": "229",
-    "titulo": "Hyalu-Cica Water-Fit Sun Serum 50ml SKIN1004",
-    "categoria": "SKIN1004",
-    "precio": 80,
-    "imagenProducto": "1786205125_Captura de pantalla 2026-08-08 110432.png",
-    "descripcion": "✔️1UD S/80 ✔️3UDS S/55 ✔️6UDS S/54 ✔️12UDS S/53 🔴Precio venta recomendado: S/95 Transforma tu rutina con nuestra barra solar química! Se desliza suavemente y ofrece hidratación instantánea con un acabado mate y sedoso. Ideal para pieles sensibles, normales y secas, mejora el sebo y protege contra los rayos UV. Enriquecida con Extracto de Centella Asiática, Ácido Hialurónico y Extracto de Cáscara de Castanea Crenata, para una piel hidratada, equilibrada y radiante.",
-    "detalles": {
-      "img": "uploads/1786205125_Captura de pantalla 2026-08-08 110432.png",
-      "stock": [
-        {
-          "cantidad": 1,
-          "precio": 80
-        },
-        {
-          "cantidad": 3,
-          "precio": 55
-        },
-        {
-          "cantidad": 6,
-          "precio": 54
-        },
-        {
-          "cantidad": 12,
-          "precio": 53
-        }
-      ],
-      "precioRecomendado": 95,
-      "descripcion": "Transforma tu rutina con nuestra barra solar química! Se desliza suavemente y ofrece hidratación instantánea con un acabado mate y sedoso. Ideal para pieles sensibles, normales y secas, mejora el sebo y protege contra los rayos UV. Enriquecida con Extracto de Centella Asiática, Ácido Hialurónico y Extracto de Cáscara de Castanea Crenata, para una piel hidratada, equilibrada y radiante.",
-      "cantidad": "",
-      "precio": 80
-    }
-  },
-  {
     "id": "230",
     "titulo": "MADAGASCAR CENTELLA HYALU-CICA MOISTURE CREAM",
     "categoria": "SKIN1004",
@@ -5139,48 +5175,12 @@
     }
   },
   {
-    "id": "232",
-    "titulo": "CENTELLA POREMIZING FRESH AMPOULE 100ML",
-    "categoria": "SKIN1004",
-    "precio": 87,
-    "imagenProducto": "1769718558_Skincare- Skin1004 Madagascar Centella Poremizing Fresh Ampoule (1).jfif",
-    "descripcion": "✔️1 ud s/87 ✔️3 ud s/67 ✔️6 ud s/66 ✔️12 ud s/65 🔴Precio recomendable S/ 90 Calmar la piel irritada, reducir el enrojecimiento y inflamación, hidrata la piel profundament, ayude con el acné o brotes leves",
-    "detalles": {
-      "precioRecomendado": 0,
-      "descripcion": ""
-    }
-  },
-  {
     "id": "233",
     "titulo": "MADAGASCAR CENTELLA AMPOLLA",
     "categoria": "SKIN1004",
     "precio": 85,
     "imagenProducto": "1769718148_Skin Type_Sensitive_Brand_SKIN1004_Item….jfif",
     "descripcion": "✔️1 ud S/85 ✔️3 ud S/69 ✔️6 ud s/68 ✔️12 ud S/67 🔴Precio venta recomendado: s/100 La ampolla icónica de SKIN1004 ofrece propiedades hidratantes, antiinflamatorias, fortalecedoras de la barrera cutánea, calmantes y antioxidantes. La Centella Asiática de Madagascar utilizada contiene 7 veces más principios activos calmantes que otras variedades, proporcionando un efecto inmediato que calma y humecta la piel sensible.",
-    "detalles": {
-      "precioRecomendado": 0,
-      "descripcion": ""
-    }
-  },
-  {
-    "id": "234",
-    "titulo": "MADAGASCAR CENTELLA LIGHT CLEANSING OIL 200 ML",
-    "categoria": "SKIN1004",
-    "precio": 75,
-    "imagenProducto": "1769718020_SKIN1004 Madagascar Centella Light Cleansing Oil.jfif",
-    "descripcion": "✔️1 ud s/75 ✔️3 ud a mas s/57 ✔️6 ud a mas s/56 ✔️12 ud a mas s/55 🔴Precio venta recomendado: s/85 Aceite limpiador ligero con extracto de centella asiática y 6 aceites botánicos. Disuelve suavemente maquillaje, protector solar, sebo e impurezas, dejando la piel limpia, calmada y sin sensación grasosa. Ideal para pieles sensibles, secas, mixtas o propensas al acné",
-    "detalles": {
-      "precioRecomendado": 0,
-      "descripcion": ""
-    }
-  },
-  {
-    "id": "235",
-    "titulo": "CENTELLA AMPOULE FOAM 125ML",
-    "categoria": "SKIN1004",
-    "precio": 75,
-    "imagenProducto": "1769717898_descarga (8).jfif",
-    "descripcion": "✔️1 UD s/75 ✔️3 UD s/ 46 🔴Precio venta recomendado: s/75 Es un limpiador facial en espuma formulado con un 84 % de extracto de Centella Asiatica de Madagascar, desarrollado para proporcionar una limpieza profunda pero suave, sin dañar la barrera cutánea ni resecar la piel .",
     "detalles": {
       "precioRecomendado": 0,
       "descripcion": ""
