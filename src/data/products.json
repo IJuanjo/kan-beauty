@@ -1,5 +1,26 @@
 [
   {
+    "id": "5202888222351",
+    "titulo": "Frezyderm Fotoprotector Sun Screen Velvet Color Face SPF 50+ 50ml",
+    "categoria": "FREZYDERM",
+    "precio": 154,
+    "imagenProducto": "fermaden.png",
+    "descripcion": "✔️1UD S/154 🔴PRECIO RECOMENDADO S/154 Protector solar facial con color SPF50+ y acabado mate terciopelo. Su fórmula con tecnología Velvet Second Skin ofrece protección amplia, controla el brillo durante 6 horas y difumina imperfecciones, cicatrices y líneas de expresión sin sensación pesada.",
+    "detalles": {
+      "img": "uploads/fermaden.png",
+      "stock": [
+        {
+          "cantidad": 1,
+          "precio": 154
+        }
+      ],
+      "precioRecomendado": 175,
+      "descripcion": "Una crema protectora con color solar facial innovadora, con una acción cosmética única que se extiende de manera uniforme con un solo toque. Su tecnología patentada crea una película invisible que suaviza la textura de la piel al instante, como un primer de maquillaje de alta gama. Ofrece un acabado mate terciopelo, controla los brillos durante 6 horas, disimula imperfecciones y cicatrices, y cuenta con filtros UVA/UVB/VIS/IR para una protección de amplio espectro.",
+      "cantidad": "",
+      "precio": 154
+    }
+  },
+  {
     "id": "196",
     "titulo": "Niacinamide 20 Serum 40ml - Jumiso",
     "categoria": "JUMISO",
